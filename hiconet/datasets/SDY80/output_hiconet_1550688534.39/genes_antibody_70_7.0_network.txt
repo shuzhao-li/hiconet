@@ -1,0 +1,14 @@
+datatype_1	datatype_2	community1_number	community2_number	PLS_score	p-value
+genes	antibody	7	1	0.2069043343786863	1
+genes	antibody	9	1	0.20681709869457707	1
+genes	antibody	10	1	0.18660591562145973	1
+genes	antibody	2	1	0.1547970285152566	1
+genes	antibody	6	1	0.15121314550640402	1
+genes	antibody	3	1	0.13802750530696342	1
+genes	antibody	12	1	0.11847371933504204	1
+genes	antibody	8	1	0.09312848826716194	1
+genes	antibody	5	1	0.08806149746081457	1
+genes	antibody	11	1	0.0857969323900218	1
+genes	antibody	1	1	0.07387043641535343	1
+genes	antibody	13	1	0.07170065088194298	1
+genes	antibody	4	1	0.030753278544285615	1

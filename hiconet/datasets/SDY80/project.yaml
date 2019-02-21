@@ -1,0 +1,58 @@
+project: HiCoNet_test_80
+data_from: ImmPort
+source_id: SDY80
+retrieved_data: 2018-0-0
+
+
+# Each data type in a project = a Society
+# society name needs to be unique!
+# observation is related to samples, subjects, treatment, time point, etc.
+# data matrix using convention of features x observations !!!
+
+societies:
+- name: genes
+  datatype: transcriptomics
+  file_data_matrix: 'BTMactivity_SDY80.txt'
+  file_feature_annotation: ''
+  file_observation_annotation: 'biosample.txt'
+  file_unstructured: ''
+
+- name: cells
+  datatype: facs
+  file_data_matrix: ''
+  file_feature_annotation: ''
+  file_observation_annotation: ''
+  file_unstructured: ''
+
+- name: antibody
+  datatype: antibody
+  file_data_matrix: 'neut_ab_titer__data_matrix.txt'
+  file_feature_annotation: ''
+  file_observation_annotation: 'neut_ab_titer__observation_annotation.txt'
+  file_unstructured: ''
+
+
+
+#
+# match keys ... subject, time points, etc. 
+# BIOSAMPLE_ACCESSION, STUDY_TIME_COLLECTED, SUBJECT_ACCESSION
+#
+# The below specifies integration actions. This can be automatically generated too in the future.
+# Stick to ImmPort ontology whereas possible
+#
+# This is still experimental --
+#
+# Don't use this section at all if not to specify sample IDs etc
+
+#
+#associations:
+#- name: gene_ab
+#  society1: genes
+#  observation_list_society1: [] # prematched observation IDs. If not given, HiCoNet will infer how to compute network from lists of samples
+  #{'STUDY_TIME_COLLECTED': '0'}  # '7_minus_0'}
+#  society2: antibody
+#  observation_list_society2: [] # prematched observation IDs, must same order as observation_list_society1
+  #{'STUDY_TIME_COLLECTED': '28'}  # '28_minus_0'}
+#  method: pls2
+#  by: SUBJECT_ACCESSION
+

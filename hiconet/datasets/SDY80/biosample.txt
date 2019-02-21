@@ -1,0 +1,1134 @@
+BIOSAMPLE_ACCESSION	DESCRIPTION	NAME	PLANNED_VISIT_ACCESSION	STUDY_ACCESSION	STUDY_TIME_COLLECTED	STUDY_TIME_COLLECTED_UNIT	STUDY_TIME_T0_EVENT	STUDY_TIME_T0_EVENT_SPECIFY	SUBJECT_ACCESSION	SUBTYPE	TYPE	WORKSPACE_ID
+BS630798	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114454		RNA	2771
+BS630803	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114459		RNA	2771
+BS630806	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114462		RNA	2771
+BS630813	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114469		RNA	2771
+BS630815	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114471		RNA	2771
+BS630816	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114472		RNA	2771
+BS630822	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114478		RNA	2771
+BS630833	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114489		RNA	2771
+BS630836	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114492		RNA	2771
+BS630841	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114497		RNA	2771
+BS630847	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114503		RNA	2771
+BS630849	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114505		RNA	2771
+BS630858	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114451		RNA	2771
+BS630863	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114456		RNA	2771
+BS630869	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114462		RNA	2771
+BS630881	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114474		RNA	2771
+BS630897	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114490		RNA	2771
+BS630908	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114501		RNA	2771
+BS630914	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114507		RNA	2771
+BS806193			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS806207			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS806226			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114480		Serum	2771
+BS806229			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS806237			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS806249			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114485		Serum	2771
+BS806274			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS806281			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS806283			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS806284			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS806289			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS806291			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS806303			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS806308			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS806309			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS806314			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS806318			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114500		Serum	2771
+BS806322			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS806336			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS806341			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114505		Serum	2771
+BS806344			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS806350			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114507		Serum	2771
+BS806356			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS806374			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS807761	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS807764	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS807767	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114466		PBMC	2771
+BS807769	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS807786	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS807800	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS807824	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114489		PBMC	2771
+BS807826	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS807828	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS807838	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS807845	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114489		PBMC	2771
+BS807850			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807862			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807864			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807872			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807873			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS807880			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807908			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807914			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807921			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807929			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807931			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807949			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS807953			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807972			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807987			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS807993			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807997			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808003			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808006			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808009			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808025			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS808042			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS808046			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808048			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS808049			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808050			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808057			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808062			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808066			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS808080			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808083			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808085			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808086			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808090			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808098	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS808104	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808107	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808126	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS808130	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS808144	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS808155	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114505		PBMC	2771
+BS808170	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS808171	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS808174	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS808192	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808196	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808210		206_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114455	206.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808228		233_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114473	233.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808232		241_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114478	241.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808239		250_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114487	250.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808241		252_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114489	252.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808251		267_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114499	267.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808277		222_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114464	222.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808282		229_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114469	229.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808294		244_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114481	244.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808314		272_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114502	272.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808341		230_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114470	230.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808349		242_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114479	242.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806085			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS806087			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS806111			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS806125			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS806126			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS806135			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS806148			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114463		Serum	2771
+BS806157			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS806168			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS806169			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS806176			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS806183			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS808352		245_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114482	245.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808374		279_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114507	279.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808378		283_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114511	283.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807737	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS807740	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807747	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807751	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS953283			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114479		Serum	2771
+BS953288			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114485		Serum	2771
+BS953289			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114496		Serum	2771
+BS953309			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS953317			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS953319			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114477		Serum	2771
+BS953320			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS953323			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS953326			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS953331			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS953333			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS953339			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS630796	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114452		RNA	2771
+BS630804	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114460		RNA	2771
+BS630820	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114476		RNA	2771
+BS630832	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114488		RNA	2771
+BS630835	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114491		RNA	2771
+BS630840	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114496		RNA	2771
+BS630856	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114512		RNA	2771
+BS630859	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114452		RNA	2771
+BS630861	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114454		RNA	2771
+BS630862	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114455		RNA	2771
+BS630892	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114485		RNA	2771
+BS630906	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114499		RNA	2771
+BS630909	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114502		RNA	2771
+BS630919	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114512		RNA	2771
+BS806200			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS806222			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS806225			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114479		Serum	2771
+BS806232			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS806233			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS806235			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS806242			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS806254			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS806262			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS806264			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS806273			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS806277			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS806280			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS806311			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS806320			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114500		Serum	2771
+BS806349			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114507		Serum	2771
+BS806351			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS806360			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS806366			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114511		Serum	2771
+BS806367			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114511		Serum	2771
+BS806373			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS807763	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807784	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807792	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807794	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807802	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807803	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807806	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114475		PBMC	2771
+BS807810	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807815	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS807821	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807835	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807851			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807871			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807874			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS807883			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807886			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807889			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807898			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807906			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807950			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS807952			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807977			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS807980			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS807988			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS808000			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808007			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808008			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808012			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS808023			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS808038			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114496		PBMC	2771
+BS808055			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808087			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808089			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808105	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114489		PBMC	2771
+BS808118	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS808129	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114501		PBMC	2771
+BS808133	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS808142	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS808145	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808147	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS808156	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS808162	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS808163	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808183	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114466		PBMC	2771
+BS808187	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS808188	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS808190	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808195	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS808198	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS808200	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS808205		200_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114450	200.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808208		204_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114453	204.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808209		205_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114454	205.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808217		218_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114462	218.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808227		232_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114472	232.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808230		235_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114475	235.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808234		245_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114482	245.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808242		254_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114490	254.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808254		272_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114502	272.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808256		274_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114504	274.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808268		204_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114453	204.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808285		232_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114472	232.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808288		235_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114475	235.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808295		245_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114482	245.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808304		256_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114491	256.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808316		277_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114506	277.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808321		284_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114512	284.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808330		212_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114458	212.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808336		224_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114465	224.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808340		229_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114469	229.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808345		234_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114474	234.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808346		235_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114475	235.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808347		236_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114476	236.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806095			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS806096			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS806098			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS806100			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS806101			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS806106			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS806107			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS806120			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114457		Serum	2771
+BS806128			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS806134			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS806149			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114463		Serum	2771
+BS806150			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114463		Serum	2771
+BS806151			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS806152			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS806153			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS806163			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS806164			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS806167			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS806180			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS806182			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS806184			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS806186			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS806187			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS808355		249_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114486	249.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808358		252_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114489	252.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808365		263_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114497	263.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808371		273_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114503	273.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808372		274_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114504	274.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808377		282_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114510	282.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808379		284_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114512	284.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807754	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114505		PBMC	2771
+BS953294			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS953300			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114457		Serum	2771
+BS953304			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS953313			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS953314			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS953321			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS953348			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS630797	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114453		RNA	2771
+BS630801	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114457		RNA	2771
+BS630812	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114468		RNA	2771
+BS630821	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114477		RNA	2771
+BS630844	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114500		RNA	2771
+BS630866	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114459		RNA	2771
+BS630873	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114466		RNA	2771
+BS630894	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114487		RNA	2771
+BS630904	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114497		RNA	2771
+BS630917	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114510		RNA	2771
+BS630918	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114511		RNA	2771
+BS806197			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS806201			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS806209			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS806223			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114479		Serum	2771
+BS806224			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114479		Serum	2771
+BS806231			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS806238			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS806245			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS806258			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS806265			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS806267			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS806278			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS806293			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS806294			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS806300			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS806316			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS806319			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114500		Serum	2771
+BS806324			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS806328			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS806330			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS806332			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS806338			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114504		Serum	2771
+BS806343			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS806345			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS807771	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807772	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807774	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807775	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS807779	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS807780	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807790	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807796	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS807797	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS807813	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807817	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807831	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS807839	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS807855			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807861			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807901			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807912			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807924			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807933			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807941			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807962			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807965			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807976			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS807983			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS807991			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807996			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808004			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808019			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808020			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808022			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808039			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114496		PBMC	2771
+BS808045			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808047			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS808058			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808059			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808075			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS808077			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808078			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808092			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808094	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS808097	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS808108	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS808110	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114509		PBMC	2771
+BS808112	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114484		PBMC	2771
+BS808114	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114484		PBMC	2771
+BS808121	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS808127	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS808132	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808137	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808153	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114480		PBMC	2771
+BS808154	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808157	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS808158	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS808166	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS808173	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS808178	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS808206		201_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114451	201.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808207		202_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114452	202.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808212		209_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114457	209.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808218		221_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114463	221.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808220		224_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114465	224.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808221		226_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114466	226.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808225		230_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114470	230.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808249		263_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114497	263.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808266		201_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114451	201.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808270		206_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114455	206.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808283		230_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114470	230.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808291		241_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114478	241.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808306		259_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114493	259.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808311		267_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114499	267.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808326		205_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114454	205.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808328		207_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114456	207.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808343		232_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114472	232.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806084			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS806090			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS806103			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS806105			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS806109			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS806114			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114456		Serum	2771
+BS806123			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS806129			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS806133			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS806136			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS806146			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS806171			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS806185			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS808350		243_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114480	243.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808359		254_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114490	254.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808376		281_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114509	281.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807735	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807741	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS807748	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807750	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS953290			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114496		Serum	2771
+BS953301			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS953328			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS953340			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS953346			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS630807	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114463		RNA	2771
+BS630811	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114467		RNA	2771
+BS630814	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114470		RNA	2771
+BS630817	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114473		RNA	2771
+BS630824	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114480		RNA	2771
+BS630827	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114483		RNA	2771
+BS630839	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114495		RNA	2771
+BS630845	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114501		RNA	2771
+BS630867	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114460		RNA	2771
+BS630877	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114470		RNA	2771
+BS630878	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114471		RNA	2771
+BS630882	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114475		RNA	2771
+BS630883	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114476		RNA	2771
+BS630888	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114481		RNA	2771
+BS630891	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114484		RNA	2771
+BS630900	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114493		RNA	2771
+BS630905	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114498		RNA	2771
+BS806199			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS806211			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114476		Serum	2771
+BS806215			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114477		Serum	2771
+BS806217			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114477		Serum	2771
+BS806236			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS806243			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS806246			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS806247			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS806251			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS806252			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS806253			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS806255			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS806256			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS806260			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS806270			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS806285			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS806298			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS806299			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS806302			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS806325			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS806327			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS806333			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS806347			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114507		Serum	2771
+BS806369			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114511		Serum	2771
+BS806371			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS806372			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS806375			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114512		Serum	2771
+BS807781	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS807785	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS807787	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS807791	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807798	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807801	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807811	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114509		PBMC	2771
+BS807814	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807816	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807827	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS807846	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS807847	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS807849			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807869			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807879			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807891			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807893			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807896			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807902			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807911			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807915			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807923			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807925			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807926			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807928			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807937			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807939			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807951			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807960			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114475		PBMC	2771
+BS807978			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS807985			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS807992			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807995			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808005			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS808016			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808021			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808029			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808030			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808044			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808053			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808060			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808068			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS808069			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808070			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808071			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808073			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808076			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS808081			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS808093	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808100	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS808113	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS808120	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808125	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS808134	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808135	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS808136	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS808141	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808151	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114509		PBMC	2771
+BS808161	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS808165	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS808177	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114499		PBMC	2771
+BS808179	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114501		PBMC	2771
+BS808180	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808191	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808197	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS808226		231_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114471	231.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808240		251_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114488	251.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808246		260_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114494	260.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808257		275_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114505	275.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808259		279_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114507	279.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808261		281_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114509	281.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808262		282_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114510	282.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808263		283_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114511	283.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808267		202_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114452	202.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808269		205_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114454	205.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808271		212_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114458	212.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808276		221_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114463	221.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808279		226_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114466	226.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808302		252_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114489	252.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808317		280_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114508	280.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808324		202_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114452	202.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808325		204_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114453	204.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808344		233_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114473	233.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806088			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS806089			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS806094			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS806139			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS806141			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS806147			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114463		Serum	2771
+BS806172			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS806175			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS806179			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS806188			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS808351		244_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114481	244.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808353		246_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114483	246.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808373		277_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114506	277.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807738	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807744	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114466		PBMC	2771
+BS953282			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS953297			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS953310			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS953330			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS953335			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS953343			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114507		Serum	2771
+BS953345			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS630805	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114461		RNA	2771
+BS630808	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114464		RNA	2771
+BS630829	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114485		RNA	2771
+BS630842	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114498		RNA	2771
+BS630854	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114510		RNA	2771
+BS630855	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114511		RNA	2771
+BS630870	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114463		RNA	2771
+BS630874	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114467		RNA	2771
+BS630884	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114477		RNA	2771
+BS630889	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114482		RNA	2771
+BS630896	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114489		RNA	2771
+BS630898	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114491		RNA	2771
+BS630902	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114495		RNA	2771
+BS630913	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114506		RNA	2771
+BS806192			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS806196			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS806198			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS806204			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS806206			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS806241			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS806248			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS806259			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS806263			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS806276			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS806296			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS806301			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114496		Serum	2771
+BS806306			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS806310			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS806313			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS806315			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS806329			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS806331			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114502		Serum	2771
+BS806340			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114505		Serum	2771
+BS806342			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS806348			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114507		Serum	2771
+BS806352			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS806359			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS806364			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS807760	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807765	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807782	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807783	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS807789	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS807808	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114509		PBMC	2771
+BS807812	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS807818	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807820	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807829	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807832	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS807834	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807853			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807875			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS807892			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807895			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807899			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807907			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807919			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807932			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807936			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807956			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS807959			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114475		PBMC	2771
+BS807961			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114475		PBMC	2771
+BS807969			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807970			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807974			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807986			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS807998			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808001			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808010			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808014			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS808018			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808027			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808036			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114496		PBMC	2771
+BS808037			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114496		PBMC	2771
+BS808040			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114496		PBMC	2771
+BS808041			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS808052			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808056			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808064			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS808065			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS808074			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS808084			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114511		PBMC	2771
+BS808091			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808096	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS808101	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS808122	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808123	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808131	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808140	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114489		PBMC	2771
+BS808159	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808172	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS808181	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808182	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS808186	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS808194	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS808203	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS808211		207_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114456	207.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808213		212_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114458	212.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808214		213_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114459	213.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808229		234_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114474	234.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808237		248_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114485	248.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808244		257_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114492	257.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808248		262_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114496	262.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808258		277_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114506	277.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808260		280_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114508	280.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808278		224_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114465	224.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808286		233_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114473	233.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808293		243_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114480	243.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808305		257_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114492	257.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808309		263_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114497	263.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808315		273_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114503	273.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808319		282_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114510	282.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808327		206_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114455	206.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808334		218_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114462	218.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808342		231_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114471	231.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806115			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114456		Serum	2771
+BS806116			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114456		Serum	2771
+BS806117			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114456		Serum	2771
+BS806127			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS806130			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS806137			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS806140			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS806156			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS806161			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS806181			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS808357		251_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114488	251.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808369		270_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114501	270.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807736	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS807745	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS807749	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS953281			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS953292			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114504		Serum	2771
+BS953293			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS953303			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS953307			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS953312			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114470		Serum	2771
+BS953316			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS953322			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS953325			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114486		Serum	2771
+BS953338			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS953344			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS630799	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114455		RNA	2771
+BS630800	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114456		RNA	2771
+BS630819	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114475		RNA	2771
+BS630826	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114482		RNA	2771
+BS630838	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114494		RNA	2771
+BS630893	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114486		RNA	2771
+BS630899	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114492		RNA	2771
+BS630907	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114500		RNA	2771
+BS630912	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114505		RNA	2771
+BS806195			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS806203			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS806205			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS806208			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114475		Serum	2771
+BS806212			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114476		Serum	2771
+BS806214			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114477		Serum	2771
+BS806216			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114477		Serum	2771
+BS806228			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114480		Serum	2771
+BS806230			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114481		Serum	2771
+BS806234			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114482		Serum	2771
+BS806244			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS806257			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114487		Serum	2771
+BS806266			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS806269			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS806272			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS806275			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS806282			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114492		Serum	2771
+BS806287			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS806290			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS806292			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS806297			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS806305			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS806326			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS806334			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS806346			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS806353			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS806354			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS806355			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114508		Serum	2771
+BS806358			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS806361			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS806362			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS806363			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS806365			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114510		Serum	2771
+BS806368			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114511		Serum	2771
+BS807762	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807766	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114475		PBMC	2771
+BS807768	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS807773	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807777	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS807805	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807823	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114501		PBMC	2771
+BS807841	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807842	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS807844	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS807858			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807881			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807882			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807887			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807888			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807900			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807903			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807910			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807916			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807922			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807942			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807943			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807945			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807947			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807948			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114472		PBMC	2771
+BS807954			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807955			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS807979			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS807981			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS808002			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808013			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS808024			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS808026			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808031			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808033			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808061			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808063			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808082			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS808102	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114466		PBMC	2771
+BS808109	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS808117	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS808128	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS808149	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS808169	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114479		PBMC	2771
+BS808175	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS808184	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS808193	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114497		PBMC	2771
+BS808202	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS808223		228_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114468	228.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808224		229_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114469	229.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808231		237_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114477	237.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808238		249_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114486	249.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808252		268_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114500	268.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808264		284_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114512	284.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808272		213_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114459	213.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808284		231_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114471	231.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808287		234_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114474	234.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808292		242_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114479	242.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808300		250_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114487	250.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808301		251_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114488	251.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808307		260_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114494	260.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808308		261_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114495	261.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808312		268_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114500	268.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808320		283_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114511	283.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808332		215_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114460	215.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808348		241_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114478	241.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806091			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS806092			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS806093			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114451		Serum	2771
+BS806102			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS806119			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114457		Serum	2771
+BS806121			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114457		Serum	2771
+BS806132			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114460		Serum	2771
+BS806138			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114461		Serum	2771
+BS806155			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS806158			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS806160			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS806166			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS806173			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS808360		256_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114491	256.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808362		259_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114493	259.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808366		265_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114498	265.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808368		268_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114500	268.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807743	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS807746	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS807755	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS807757	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS953285			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114480		Serum	2771
+BS953287			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114485		Serum	2771
+BS953291			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114504		Serum	2771
+BS953306			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114463		Serum	2771
+BS953311			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS953329			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS953336			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS630809	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114465		RNA	2771
+BS630818	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114474		RNA	2771
+BS630825	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114481		RNA	2771
+BS630828	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114484		RNA	2771
+BS630830	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114486		RNA	2771
+BS630831	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114487		RNA	2771
+BS630843	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114499		RNA	2771
+BS630846	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114502		RNA	2771
+BS630850	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114506		RNA	2771
+BS630853	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114509		RNA	2771
+BS630868	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114461		RNA	2771
+BS630872	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114465		RNA	2771
+BS630875	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114468		RNA	2771
+BS630887	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114480		RNA	2771
+BS630890	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114483		RNA	2771
+BS630895	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114488		RNA	2771
+BS630901	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114494		RNA	2771
+BS630903	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114496		RNA	2771
+BS630911	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114504		RNA	2771
+BS630915	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114508		RNA	2771
+BS630916	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114509		RNA	2771
+BS806191			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS806194			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS806202			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114474		Serum	2771
+BS806213			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114476		Serum	2771
+BS806218			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS806220			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS806221			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS806239			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS806250			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114485		Serum	2771
+BS806261			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS806268			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114489		Serum	2771
+BS806286			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS806295			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114494		Serum	2771
+BS806304			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114497		Serum	2771
+BS806307			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114498		Serum	2771
+BS806312			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS806317			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114500		Serum	2771
+BS806321			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114500		Serum	2771
+BS806323			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114501		Serum	2771
+BS806335			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114503		Serum	2771
+BS806337			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114504		Serum	2771
+BS806357			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114509		Serum	2771
+BS806370			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114511		Serum	2771
+BS807776	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807778	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS807795	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807807	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807819	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114484		PBMC	2771
+BS807830	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS807833	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS807840	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114487		PBMC	2771
+BS807843	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS807857			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807859			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807863			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807865			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807877			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807894			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114459		PBMC	2771
+BS807897			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807904			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807913			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807918			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807927			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114467		PBMC	2771
+BS807930			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807946			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807963			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807964			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807966			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807973			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807984			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS807989			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807990			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS807994			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808011			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114488		PBMC	2771
+BS808015			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808017			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114491		PBMC	2771
+BS808035			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808043			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS808051			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808054			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808067			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114504		PBMC	2771
+BS808072			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808079			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808088			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114512		PBMC	2771
+BS808095	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS808103	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808106	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS808111	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS808119	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS808139	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114482		PBMC	2771
+BS808143	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114507		PBMC	2771
+BS808152	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS808160	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS808164	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114473		PBMC	2771
+BS808168	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808176	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114485		PBMC	2771
+BS808199	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS808201	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114493		PBMC	2771
+BS808204	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808215		215_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114460	215.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808219		222_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114464	222.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808233		244_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114481	244.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808235		246_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114483	246.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808245		259_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114493	259.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808250		265_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114498	265.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808253		270_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114501	270.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808289		236_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114476	236.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808290		237_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114477	237.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808297		247_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114484	247.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808313		270_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114501	270.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808331		213_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114459	213.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808333		217_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114461	217.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808335		222_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114464	222.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806112			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS806113			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS806124			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS806131			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS806154			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114464		Serum	2771
+BS806162			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS806177			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS806189			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114471		Serum	2771
+BS808356		250_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114487	250.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808361		257_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114492	257.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808364		261_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114495	261.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807734	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807739	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS807752	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114468		PBMC	2771
+BS807756	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114510		PBMC	2771
+BS807759	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS953286			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114480		Serum	2771
+BS953296			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS953305			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS953315			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114473		Serum	2771
+BS953318			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114476		Serum	2771
+BS953324			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114484		Serum	2771
+BS953332			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS953341			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114505		Serum	2771
+BS630794	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114450		RNA	2771
+BS630795	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114451		RNA	2771
+BS630802	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114458		RNA	2771
+BS630810	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114466		RNA	2771
+BS630823	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114479		RNA	2771
+BS630834	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114490		RNA	2771
+BS630837	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114493		RNA	2771
+BS630848	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114504		RNA	2771
+BS630851	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114507		RNA	2771
+BS630852	Before vaccine		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114508		RNA	2771
+BS630857	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114450		RNA	2771
+BS630860	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114453		RNA	2771
+BS630864	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114457		RNA	2771
+BS630865	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114458		RNA	2771
+BS630871	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114464		RNA	2771
+BS630876	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114469		RNA	2771
+BS630879	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114472		RNA	2771
+BS630880	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114473		RNA	2771
+BS630885	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114478		RNA	2771
+BS630886	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114479		RNA	2771
+BS630910	After vaccine		PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114503		RNA	2771
+BS806190			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114472		Serum	2771
+BS806210			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114476		Serum	2771
+BS806219			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114478		Serum	2771
+BS806227			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114480		Serum	2771
+BS806240			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114483		Serum	2771
+BS806271			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114490		Serum	2771
+BS806279			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114491		Serum	2771
+BS806288			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114493		Serum	2771
+BS806339			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114505		Serum	2771
+BS807770	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114492		PBMC	2771
+BS807788	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114501		PBMC	2771
+BS807793	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114480		PBMC	2771
+BS807799	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114455		PBMC	2771
+BS807804	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807809	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114490		PBMC	2771
+BS807822	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114460		PBMC	2771
+BS807825	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114498		PBMC	2771
+BS807836	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114484		PBMC	2771
+BS807837	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS807848			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807852			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS807854			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807856			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114451		PBMC	2771
+BS807860			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114452		PBMC	2771
+BS807866			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807867			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS807868			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807870			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114454		PBMC	2771
+BS807876			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807878			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114456		PBMC	2771
+BS807884			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807885			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807890			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114458		PBMC	2771
+BS807905			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114462		PBMC	2771
+BS807909			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114463		PBMC	2771
+BS807917			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114464		PBMC	2771
+BS807920			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114465		PBMC	2771
+BS807934			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807935			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807938			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114469		PBMC	2771
+BS807940			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114470		PBMC	2771
+BS807944			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114471		PBMC	2771
+BS807957			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS807958			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114474		PBMC	2771
+BS807967			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807968			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS807971			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807975			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS807982			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114481		PBMC	2771
+BS807999			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114486		PBMC	2771
+BS808028			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114494		PBMC	2771
+BS808032			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808034			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114495		PBMC	2771
+BS808099	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114477		PBMC	2771
+BS808115	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114461		PBMC	2771
+BS808116	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114503		PBMC	2771
+BS808124	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS808138	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114506		PBMC	2771
+BS808146	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114483		PBMC	2771
+BS808148	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114508		PBMC	2771
+BS808150	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS808167	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114453		PBMC	2771
+BS808185	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114478		PBMC	2771
+BS808189	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114450		PBMC	2771
+BS808216		217_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114461	217.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808222		227_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114467	227.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808236		247_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114484	247.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808243		256_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114491	256.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808247		261_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114495	261.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808255		273_day-7	PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114503	273.Blood.RNA-MicroArray.PV4267	RNA	2771
+BS808265		200_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114450	200.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808273		215_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114460	215.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808274		217_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114461	217.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808275		218_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114462	218.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808280		227_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114467	227.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808281		228_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114468	228.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808296		246_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114483	246.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808298		248_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114485	248.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808299		249_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114486	249.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808303		254_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114490	254.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808310		265_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114498	265.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808318		281_day7	PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114509	281.Blood.RNA-MicroArray.PV4268	RNA	2771
+BS808322		200_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114450	200.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808323		201_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114451	201.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808329		209_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114457	209.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808337		226_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114466	226.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808338		227_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114467	227.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808339		228_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114468	228.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS806086			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114450		Serum	2771
+BS806097			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS806099			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114453		Serum	2771
+BS806104			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS806108			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114454		Serum	2771
+BS806110			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS806118			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114457		Serum	2771
+BS806122			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114458		Serum	2771
+BS806142			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS806143			PV1835	SDY80	1	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS806144			PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS806145			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114462		Serum	2771
+BS806159			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114465		Serum	2771
+BS806165			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114467		Serum	2771
+BS806170			PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS806174			PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114468		Serum	2771
+BS806178			PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114469		Serum	2771
+BS808354		247_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114484	247.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808363		260_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114494	260.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808367		267_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114499	267.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808370		272_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114502	272.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS808375		280_day70	PV4269	SDY80	70	Days	Time of initial vaccine administration		SUB114508	280.Blood.RNA-MicroArray.PV4269	RNA	2771
+BS807733	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4268	SDY80	7	Days	Time of initial vaccine administration		SUB114476		PBMC	2771
+BS807742	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV4267	SDY80	-7	Days	Time of initial vaccine administration		SUB114457		PBMC	2771
+BS807753	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114500		PBMC	2771
+BS807758	Cryopreserved PBMCs were thawed, washed twice and the number of viable cells enumerated with an automated FACS based instrument (Millipore). A portion of the PBMCs were examined by flow cytometry using CD19, CD20, CD27, CD21, CD10 and CD95 or CD19, CD20, IgM, IgD, IgG and IgA for immunophenotyping of B cell markers and normalization of B cell numbers		PV1834	SDY80	0	Days	Time of initial vaccine administration		SUB114502		PBMC	2771
+BS953284			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114479		Serum	2771
+BS953295			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114452		Serum	2771
+BS953298			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114455		Serum	2771
+BS953299			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114456		Serum	2771
+BS953302			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114459		Serum	2771
+BS953308			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114466		Serum	2771
+BS953327			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114488		Serum	2771
+BS953334			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114495		Serum	2771
+BS953337			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114499		Serum	2771
+BS953342			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114506		Serum	2771
+BS953347			PV6192	SDY80	28	Days	Time of initial vaccine administration		SUB114511		Serum	2771
