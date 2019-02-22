@@ -73,12 +73,13 @@ def hierachical_clustering(df, distanceCut = 2):
     # Compile clusters
     ClusDict = {}
     for ii in range(number_features):
-        if ClusDict.has_key(Clus[ii]):
+        # if ClusDict.has_key(Clus[ii]):
+        if Clus[ii] in ClusDict:
             ClusDict[ Clus[ii] ].append(ii)
         else:
             ClusDict[ Clus[ii] ] = [ii]
 
-    print(ClusDict.items()[:3])    # This organizes cluster, members
+    #print(ClusDict.items()[:3])    # This organizes cluster, members
     return Clus, ClusDict
 
 
@@ -127,7 +128,7 @@ def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
     YM_new = 1 - (1- np.array(delta_RT)/range_retention_time)*PearsonR
     ZM = linkage(YM_new, method='ward')
     metClus = fcluster(ZM, distanceCut, criterion='distance')
-    print(metClus[:10])
+    #print(metClus[:10])
 
     number_features, number_clusters = len(metClus), len(set(list(metClus)))
     print("number of features: ", number_features)
@@ -136,7 +137,8 @@ def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
     # Compile clusters
     metClusDict = {}
     for ii in range(number_features):
-        if metClusDict.has_key(metClus[ii]):
+        # if metClusDict.has_key(metClus[ii]):
+        if metClus[ii] in metClusDict:
             metClusDict[ metClus[ii] ].append(ii)
         else:
             metClusDict[ metClus[ii] ] = [ii]

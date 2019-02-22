@@ -128,8 +128,8 @@ class HiCoNet:
         
         Update self.dict_project_definition['associations']
         """
-        
-        if not self.dict_project_definition.has_key('associations'):
+        # if not self.dict_project_definition.has_key('associations')
+        if not 'associations' in self.dict_project_definition:
             self.dict_project_definition['associations'] = []
             for sc1,sc2 in combinations( self.societies, 2 ):
                 print("Inferring association instruction", sc1.name, sc2.name)

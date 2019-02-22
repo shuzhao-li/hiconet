@@ -70,7 +70,8 @@ class pairNetwork:
         gSizes = [len(x) for x in gCommunities.values() if len(x) > 2]
         mSizes = [len(x) for x in mCommunities.values() if len(x) > 2]
         
-        gArray, mArray = society1.DataMatrix.values.flatten(), society2.DataMatrix.values.flatten()
+        gArray, mArray = list(society1.DataMatrix.values.flatten()), \
+                         list(society2.DataMatrix.values.flatten())
         gDF, mDF = society1.DataMatrix[association_dict['observation_list_society1']], \
                    society2.DataMatrix[association_dict['observation_list_society2']]
         
@@ -214,6 +215,9 @@ class pairNetwork:
         ???
         Permutation will be done within each data slice,
         due to different data characteristics in time points or delta, or etc.
+        
+        
+        
         
         '''
         SampleNumber = self.SampleNumber

@@ -231,7 +231,7 @@ class Society:
         """
         d = {}
         for k,v in self.Communities.items():      # {feature_ID: community_ID}
-            if d.has_key(v):
+            if v in d:
                 d[v].append(k)
             else:
                 d[v] = [k]
