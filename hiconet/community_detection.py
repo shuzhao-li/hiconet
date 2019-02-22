@@ -26,7 +26,8 @@ input dataframe has to be correctly read: values start at position [0,0].
 
 
 __all__ = ["hierachical_clustering", "hierachical_clustering_lcms",
-           "leiden_find_communities",
+           "louvain_find_communities",
+           #"leiden_find_communities",
             # to add other methods
           ]
 
@@ -34,8 +35,9 @@ __all__ = ["hierachical_clustering", "hierachical_clustering_lcms",
 from scipy.cluster.hierarchy import *
 from scipy.spatial.distance import pdist
 
-import leidenalg
-import igraph as ig
+#import leidenalg
+#import igraph as ig
+import scanpy as sc
 
 
 def hierachical_clustering(df, distanceCut = 2):
@@ -169,3 +171,5 @@ def leiden_find_communities(df, method='modularity'):
     #
     pass
 
+def louvain_find_communities(df, method='modularity'):
+    pass
