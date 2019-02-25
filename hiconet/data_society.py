@@ -19,7 +19,7 @@ Hieracrchical Community Network
 
 from input_functions import read_input_tables, fuzzy_index_2L, data_wrangler, \
                             common_observation_IDs, common_subject_IDs, common_timepoint_labels, common_treatment_labels
-from community_detection import hierachical_clustering
+from community_detection import hierachical_clustering, leiden_find_communities, hierachical_clustering_lcms
 
 class Society:
     """
@@ -193,9 +193,7 @@ class Society:
             self.DataMatrix = self.raw_DataMatrix
 
 
-
-
-    def get_communities(self, method='hcl'):
+    def get_communities(self, method='leiden'):
         """
         Testing stage, using hcl only
         
@@ -205,18 +203,18 @@ class Society:
         """
         available_methods = ['hcl',
                             'lcms_hcl',
-                            'spec-Girvan-Newman',
-                            'Louvain',
-                            # 'leidenalg',
-                            'test',
+                            #'spec-Girvan-Newman',
+                            #'Louvain',
+                            'leiden',
+                            #'test',
                             ]
         if method not in available_methods:
             raise ValueError('Provide a valid method, one of {}.'.format(available_methods))
         if method == 'hcl':
             # This return format will change -
             self.Clus, self.Communities = hierachical_clustering(self.DataMatrix)
-        if method == 'Louvain':
-            pass
+        if method == 'leiden':
+            self.Clus, self.Communities = leiden_find_communities(self.DataMatrix)
         elif method == '':
             pass
 

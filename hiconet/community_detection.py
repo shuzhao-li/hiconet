@@ -24,20 +24,17 @@ input dataframe has to be correctly read: values start at position [0,0].
 
 """
 
-
 __all__ = ["hierachical_clustering", "hierachical_clustering_lcms",
-           "louvain_find_communities",
-           #"leiden_find_communities",
+           #"louvain_find_communities",
+           "leiden_find_communities",
             # to add other methods
           ]
-
 
 from scipy.cluster.hierarchy import *
 from scipy.spatial.distance import pdist
 
-#import leidenalg
-#import igraph as ig
 import scanpy as sc
+import anndata
 
 
 def hierachical_clustering(df, distanceCut = 2):
@@ -68,7 +65,7 @@ def hierachical_clustering(df, distanceCut = 2):
 
     number_features, number_clusters = len(Clus), len(set(list(Clus)))
     print("number of features: ", number_features)
-    print("number of clusters: ", number_clusters)
+    print("number of communities: ", number_clusters)
 
     # Compile clusters
     ClusDict = {}
@@ -132,7 +129,7 @@ def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
 
     number_features, number_clusters = len(metClus), len(set(list(metClus)))
     print("number of features: ", number_features)
-    print("number of clusters: ", number_clusters)
+    print("number of communities: ", number_clusters)
 
     # Compile clusters
     metClusDict = {}
@@ -153,11 +150,6 @@ def leiden_find_communities(df, method='modularity'):
     https://github.com/vtraag/leidenalg
     This finds the optimal partition using the Leiden algorithm [1], 
     which is an extension of the Louvain algorithm [2] for a number of different methods. 
-    The methods currently implemented are (1) modularity [3], 
-    (2) Reichardt and Bornholdt's model using the configuration null model 
-    and the Erdös-Rényi null model [4], (3) the constant Potts model (CPM) [5], 
-    (4) Significance [6], and finally (5) Surprise [7].
-    
     leidenalg.find_partition(G, leidenalg.ModularityVertexPartition);
         
     Parameters
@@ -171,7 +163,32 @@ def leiden_find_communities(df, method='modularity'):
     ClusDict: dictionary of communities to members
     '''
     #
-    pass
+    scdm = anndata.AnnData(df)
+    sc.pp.neighbors(scdm, use_rep='X')
+    sc.tl.leiden(scdm)
+    Clus = list(scdm.obs['leiden'].values)
+    #
+    # using old code below. To be optimized
+    #
+    number_features, number_clusters = len(Clus), len(set(list(Clus)))
+    print("number of features: ", number_features)
+    print("number of communities: ", number_clusters)
+
+    # Compile clusters
+    ClusDict = {}
+    for ii in range(number_features):
+        # if ClusDict.has_key(Clus[ii]):
+        if Clus[ii] in ClusDict:
+            ClusDict[ Clus[ii] ].append(ii)
+        else:
+            ClusDict[ Clus[ii] ] = [ii]
+
+    #print(ClusDict.items()[:3])    # This organizes cluster, members
+    return Clus, ClusDict
+
+
+    
+    
 
 def louvain_find_communities(df, method='modularity'):
     pass
