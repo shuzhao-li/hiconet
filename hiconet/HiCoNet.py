@@ -63,13 +63,15 @@ default integration schema:
 
 """
 
-
-import os, sys, pickle, time
+import os
+import sys
+import pickle
+import time
+import json
 from itertools import combinations
 
 from data_society import Society
 from input_functions import get_project_dict, _Minimal_Sample_Number
-#_Minimal_Sample_Number: least number of shared subjects is required to perform network association.
 
 from pls2_network import pairNetwork
 
@@ -81,15 +83,18 @@ class HiCoNet:
     Need a project dictionary to initiate, either from local project.yaml file or from web input.
 
     Each data type is a society, where local communities are identified.
-    HiCoNet is based on PLS association cross data types.
-    Time points are not explicitly used but it's users' decision to place into project dictionary.
-
-    Return network, and supporting database, traceback for data presentation.
+    HiCoNet is based on PLS association cross data types. The pairNetworks can be combined.
     
+    For web server, we can start a simplified input format without considering time points.
     
-    The pairNetworks can be combined.
-
+    Return
+    ------
+    One community network, 
+    List of communities,
+    Definition of each community.
     
+    Output formats can be
+    JSON, pickle and local file writes.
 
     """
     def __init__(self, dict_project_definition):
@@ -112,8 +117,8 @@ class HiCoNet:
         
         self.make_outdir()
         
+        self.sort_combined_network()
         self.write_networks()
-        self.write_top_networks()
         self.write_societies()
         self.pickle_hiconet()
         
@@ -122,9 +127,8 @@ class HiCoNet:
         to get associations to compute: check user's spec or infer ab initio.
         if no valid instruction from user input, do ab initio inference.
         
-        and ?? Complicated scheme
-        
-        allow cross-timepoint too...
+        The scheme will be developed further in the future, 
+        e.g. allowing cross-timepoint too...
         
         Update self.dict_project_definition['associations']
         """
@@ -237,6 +241,8 @@ class HiCoNet:
                 pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
                 self.networks.append( pn )
 
+        self.network_edges = []
+
 
     def get_Societies(self):
         """
@@ -266,36 +272,39 @@ class HiCoNet:
         pass
 
     def make_outdir(self):
+        """
+        create local DIR, mummichog style
+        """
         time_stamp = str(time.time())
         self.outdir = os.path.join(self.dict_project_definition['workdir'], 
                                    'output_hiconet_'+time_stamp)
+        self.outdir_individual_networks = os.path.join(self.outdir, 'individual_networks')
         os.mkdir(self.outdir)
+        os.mkdir(self.outdir_individual_networks)
         
     def write_networks(self):
         """
-        
-        
-        
-        
-        create local DIR, mummichog style
-        
-        
-        
-        
-        
-        pn.network_edges = [( g, m, PLSscore, p-value ), ...]
+        Write all network edges, and a separate file for top networks
         """
-        
+        header = "datatype_1\tdatatype_2\tcommunity1_number\tcommunity2_number\tPLS_score\tp-value\n"
         for pn in self.networks:
-            s = "datatype_1\tdatatype_2\tcommunity1_number\tcommunity2_number\tPLS_score\tp-value\n"
+            s = header
             for e in pn.network_edges:
+                # pn.network_edges = [( g, m, PLSscore, p-value ), ...]
                 s += '\t'.join( [pn.dict['society1'], pn.dict['society2']] + [str(x) for x in e]) + '\n'
 
-            with open(os.path.join(self.outdir, pn.name + "_network.txt"), "w") as O:
+            with open(os.path.join(self.outdir_individual_networks, pn.name + "_network.txt"), "w") as O:
                 O.write(s)
 
-
-    def write_top_networks(self):
+        top = [x for x in self.combined_network if x[4] < 0.05 and x[3] > 0]
+        if len(top) < 10:
+            top = self.combined_network[:10]
+        
+        with open(os.path.join(self.outdir, "top_networks.txt"), "w") as O:
+            O.write(header + '\n'.join(['\t'.join([str(ii) for ii in x]) for x in top]) )
+            
+            
+    def sort_combined_network(self):
         all = []
         for pn in self.networks:
             for e in pn.network_edges:
@@ -303,15 +312,7 @@ class HiCoNet:
         
         def sort2(val): return val[3]
         all.sort(key = sort2, reverse = True)
-        top = [x for x in all if x[4] < 0.05 and x[3] > 0]
-        if len(top) < 10:
-            top = all[:10]
-        
-        #print(top)
-        
-        with open(os.path.join(self.outdir, pn.name + "_network.txt"), "w") as O:
-            O.write( '\n'.join(['\t'.join([str(ii) for ii in x]) for x in top]) )
-
+        self.combined_network = all
 
     def write_societies(self):
         """
@@ -319,26 +320,39 @@ class HiCoNet:
         """
         for sc in self.societies:
             with open(os.path.join(self.outdir, sc.name + "_communities.txt"), "w") as O:
-                O.write(str(sc.Communities))
+                O.write(sc.export_communities_table())
 
     def pickle_hiconet(self):
         """
-        write Python pickle object for entire HiCoNet instance
+        write Python pickle object for entire HiCoNet instance.
+        Pickle is unsafe and should not be used for data exchange.
+        """
+        pickle.dump(self, open(os.path.join(self.outdir, "hiconet_data.pickle"), "wb"))
+        print("HiCoNet dumped into hiconet_data.pickle.")
         
 
-        for k,v in self.comm_member_dict.items():
-            # cluster number : row numbers
-            self.dataframe.iloc[v, :].to_csv( OUTDIR + self.datatype + "_clus_%d.txt" %k, sep="\t")
+    def export_json(self):
+        """export
+        network of communities
+        community definition, annotation and members
         
+        One community network, 
+        List of communities,
+        Definition of each community.
         """
-        pass
+        result = {'network': self.combined_network,
+                  'societies': [(sc.name, sc.datatype, sc.Communities, sc.feature_member_annotation
+                                 ) for sc in self.societies
+                      ]
+            }
+        return json.dumps(result)
 
 
 class DeltaHiCoNet(HiCoNet):
     """
     This copies HiCoNet, but uses differences btw time points for PLS regression.
     
-    to do.
+    Yet to implement.
     
     """
     def make_delta_societies(self, old_hiconet):
@@ -368,6 +382,7 @@ if __name__ == '__main__':
     proj_dict = get_project_dict(_source='local', _dir=dir)     #_Data_Directory)
     H = HiCoNet(proj_dict)
     H.run_hiconet()
+    
     
 
     

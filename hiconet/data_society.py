@@ -79,14 +79,13 @@ class Society:
         self.unstructured,
         ] = read_input_tables(_dir, dict_society)
 
+        # clean up DataMatrix
+        self.cleanup()
         # dict feature annotation
         self.get_feature_annotation()
         # subj _ time point _ treatment group
         self.get_observation_annotation()
 
-        # clean up DataMatrix
-        self.cleanup()
-        
         # delta should be considered as a new society
         #self.generate_delta()
 
@@ -98,8 +97,9 @@ class Society:
 
     def get_feature_annotation(self):
         # ??
-        #return dict(self.FeatureAnnotation)
-        pass
+        # temporary hack for feature IDs; will do more proper annotation
+        #
+        self.feature_member_annotation = list(self.DataMatrix.index)
 
     def get_observation_annotation(self):
         """
@@ -180,6 +180,8 @@ class Society:
 
     def cleanup(self):
         """
+        Not really cleaning now -
+        
         Filtering (both observations and features) and imputation
         
         Pass through for now - yet to implement data_wrangler.
@@ -195,11 +197,15 @@ class Society:
 
     def get_communities(self, method='leiden'):
         """
-        Testing stage, using hcl only
+        Testing stage, using leiden or hcl only
         
         option to designate minimal cluster number/size?
 
         self.Communities is a dictionary {community_ID: [feature_ID, ...], ...}
+        
+        
+        TO-DO add community annotation function
+        
         """
         available_methods = ['hcl',
                             'lcms_hcl',
@@ -218,36 +224,24 @@ class Society:
         elif method == '':
             pass
 
-
-    def get_comm_member_dict(self):
-        """
-        This is already in hierachical_clustering
         
-        Not used now, but should be moved out of hierachical_clustering
-        
-        return {community_ID: [feature_ID, ...], ...}
+
+    def export_communities_table(self):
         """
-        d = {}
-        for k,v in self.Communities.items():      # {feature_ID: community_ID}
-            if v in d:
-                d[v].append(k)
-            else:
-                d[v] = [k]
-        return d
-
-
-
-    def write_communities(self):
-
-        # ?? not to use for now
-        for k,v in self.comm_member_dict.items():
-            # cluster number : row numbers
-            self.DataMatrix.iloc[v, :].to_csv( OUTDIR + self.datatype + "_clus_%d.txt" %k, sep="\t")
-
+        TO-DO: improve community annotation
+        """
+        s = "community_number\tfeature_number\tfeature_name\n"
+        for k,v in self.Communities.items():
+            for member in v:
+                s += '\t'.join([str(x) for x in 
+                                [k, member, self.feature_member_annotation[member]]]) + '\n'
+        return s
 
 
     def __generate_delta(self):
         """
+        Not used. Will move to new class
+        
         This expands the DataMatrix and ObservationAnnotation to add time differences btw observations.
         E.g. antibody increase from baseline.
 

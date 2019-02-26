@@ -40,6 +40,7 @@ from fuzzywuzzy import process as fuzzyfind
 
 # Will need better management of parameters
 #_Data_Directory = './datasets/SDY80/'
+#_Minimal_Sample_Number: least number of shared subjects is required to perform network association.
 _Minimal_Sample_Number = 10
 NUM_PERMUTATION = 20    #200
 
