@@ -74,7 +74,7 @@ from data_society import Society
 from input_functions import get_project_dict, _Minimal_Sample_Number
 
 from pls2_network import pairNetwork
-
+from html_visual import make_js_from_network, make_html_page
 
 
 class HiCoNet:
@@ -383,7 +383,9 @@ if __name__ == '__main__':
     H = HiCoNet(proj_dict)
     H.run_hiconet()
     
-    
+    # testing html and js, up to 20 edges
+    make_html_page(os.path.join(H.outdir, "summary.html"),
+                   make_js_from_network(H.combined_network[:20]))
 
     
     

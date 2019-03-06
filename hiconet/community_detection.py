@@ -82,6 +82,9 @@ def hierachical_clustering(df, distanceCut = 2):
 
 
 def girvan_newton_spectral_clustering():
+    """
+    An implementation is in mummichog code, to be phased out.
+    """
     pass
 
 
@@ -144,8 +147,9 @@ def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
 
     return metClus, metClusDict
 
+
 def leiden_find_communities(df, method='modularity'):
-    '''
+    """
     
     https://github.com/vtraag/leidenalg
     This finds the optimal partition using the Leiden algorithm [1], 
@@ -161,7 +165,7 @@ def leiden_find_communities(df, method='modularity'):
     -------
     Clus: list of membership
     ClusDict: dictionary of communities to members
-    '''
+    """
     #
     scdm = anndata.AnnData(df)
     sc.pp.neighbors(scdm, use_rep='X')
@@ -188,7 +192,5 @@ def leiden_find_communities(df, method='modularity'):
 
 
     
-    
-
 def louvain_find_communities(df, method='modularity'):
     pass
