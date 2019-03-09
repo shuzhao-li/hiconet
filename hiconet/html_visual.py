@@ -174,11 +174,11 @@ def quote(s):
 def make_cytoscape_js_from_json(json_input):
     pass
 
-def make_js_from_network(p_network):
+def make_js_from_network(combined_network):
     '''
     Make code for cytoscape.js visualization.
     
-    Note: p_network is a list of edges: [( g, m, PLSscore, p-value ), ...]
+    Note: combined_network is a list of edges: [(network_name, g, m, PLSscore, p-value ), ...]
     
     cytoscape.js visualization:
         var cytonodes = [ [
@@ -197,16 +197,16 @@ def make_js_from_network(p_network):
 
     '''
     cynodestr, cyedgestr = '[', '['
-    nodes_society_1, nodes_society_2 = set([e[0] for e in p_network]), set([e[1] for e in p_network])
+    nodes_society_1, nodes_society_2 = set([e[1] for e in combined_network]), set([e[2] for e in combined_network])
     for n in nodes_society_1:
         cynodestr += '{ data: ' + '{id:%s, group:1} }, ' %quote(n)
     for n in nodes_society_2:
         cynodestr += '{ data: ' + '{id:%s, group:2} }, ' %quote(n)
-    for e in p_network:
-        # pn.network_edges = [( g, m, PLSscore, p-value ), ...]
+    for e in combined_network:
+        # [(network_name, g, m, PLSscore, p-value ), ...]
         e = [str(x) for x in e]
         # tweaking str types
-        cyedgestr += '{ data: { id: "%s", weight: %s, source: %s, target: %s } }, ' %('-'.join(e[:2]), e[2], quote(e[0]), quote(e[1]))
+        cyedgestr += '{ data: { id: "%s", weight: %s, source: %s, target: %s } }, ' %('-'.join(e[1:3]), e[3], quote(e[1]), quote(e[2]))
 
     cynodestr += '], '
     cyedgestr += '], '

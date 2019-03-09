@@ -89,6 +89,28 @@ def read_input_tables(_dir, dict_society):
     return [DataMatrix, ObservationAnnotation, FeatureAnnotation, unstructured]
 
 
+def read_web_input(textField1, textField2, dataType1='dataType1', dataType2='dataType1'):
+    """Process input files from web browser. 
+    Web input is simplified as two data matrices with matched columns, without requiring annotations.
+    No project dictionary.
+    
+    Watch out for formatting - use or misuse of field #0,0
+
+    Parameters
+    ----------
+    textField1, textField2, dataType1='dataType1', dataType2='dataType1'
+
+    Returns
+    -------
+    unprocessed, unlinked tables:
+    [DataMatrix1, DataMatrix2, dataType1, dataType2]
+    """
+    DataMatrix1 = pd.read_csv(textField1, sep='\t', index_col=0)
+    DataMatrix2 = pd.read_csv(textField2, sep='\t', index_col=0)  
+
+    return [DataMatrix1, DataMatrix2, dataType1, dataType2]
+
+
 
 def get_project_dict(_source='local', _dir='.'):
     """If local, look for file 'project.yaml'; (else, get from web?)
@@ -118,7 +140,13 @@ def data_wrangler(df):
     Impute the rest of missing values.
     track steps and warnings. 
     
-    to do.
+    The default behaivor of pandas:
+    http://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
+    
+    Note
+    ----
+    Remove rows then columns with missing 30% or more.
+    Immpute missing value per row using mean of valid values in the row.
 
     Returns
     -------
@@ -126,7 +154,32 @@ def data_wrangler(df):
 
     
     """
-    return (df, '')
+    message = ''
+    # filter
+    a, b = df.shape
+    thresh_0, thresh_1 = max(2, int(0.3*b)), max(2, int(0.3*a))       # note def of missing values
+    df = df.dropna(axis=0, thresh=thresh_0)
+    df = df.dropna(axis=1, thresh=thresh_1)
+    a1, b1 = df.shape
+    num_removed_rows = a - a1
+    num_removed_cols = b - b1
+    num_nans = df.isnull().sum().sum()
+    
+    if num_removed_rows: message += 'num_removed_rows = %d\n' %num_removed_rows
+    if num_removed_cols: message += 'num_removed_cols = %d\n' %num_removed_cols
+    if num_nans: message += 'Replaced %d missing values by row means.\n' %num_nans
+    
+    # impute
+    # pandas df.fillna(df.mean(axis=1)) not working:
+    # only using first value in Python 2, doing nothing in python3??
+    # 
+    # fill using 
+    df = df.fillna(df.mean().mean())
+    #if message: print(df.values)
+    
+    return (df, message)
+    
+    
 
 
 def fuzzy_index(target, L):

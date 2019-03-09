@@ -108,6 +108,12 @@ class HiCoNet:
         
 
     def run_hiconet(self):
+        """
+        
+        add to project dictionary, option to convert to BTM from transcriptomics
+        
+        
+        """
         # verify association_dict and update if needed
         self.get_association_instructions()
         
@@ -364,22 +370,24 @@ class DeltaHiCoNet(HiCoNet):
         self.societies = new_societies
 
 
+class webHiCoNet(HiCoNet):
+    """
+    HiCoNet via web I/O.
+    
+    Using a simplifed design, taking two prematched input matrices and compute HiCoNet.
+    
+    """
+    pass
 
 
-
-if __name__ == '__main__':
-    '''
-    Run analysis
-
-    DH = DeltaHiCoNet()
-    DH.make_delta_societies(H)
-    DH.run_hiconet()
-
-
-    '''
-
-    dir = sys.argv[1]
-    proj_dict = get_project_dict(_source='local', _dir=dir)     #_Data_Directory)
+# -------------------------------------------------------------------
+#
+# Separate routines for regular HiCoNet, DeltaHiConet and webHiCoNet.
+#
+#
+def run_local_HiCoNet():
+    #
+    proj_dict = get_project_dict(_source='local', _dir=sys.argv[1])
     H = HiCoNet(proj_dict)
     H.run_hiconet()
     
@@ -387,5 +395,20 @@ if __name__ == '__main__':
     make_html_page(os.path.join(H.outdir, "summary.html"),
                    make_js_from_network(H.combined_network[:20]))
 
+
+def run_web_HiCoNet(textField1, textField2, dataType1, dataType2):
+    proj_dict = {
+        }
+    H = webHiCoNet(proj_dict)
+    H.run_hiconet()
     
+
+if __name__ == '__main__':
+    '''
+    Run analysis
+    Separate routines for regular HiCoNet, DeltaHiConet and webHiCoNet.
+    '''
+
+    # regular HiCoNet from local dir
+    run_local_HiCoNet()
     

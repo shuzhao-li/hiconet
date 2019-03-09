@@ -113,7 +113,7 @@ class Society:
         Use '' if not found.
 
 
-        ObservationAnnotation may use different terms. Thus includign a list of common synonyms and variants.
+        ObservationAnnotation may use different terms. Thus including a list of common synonyms and variants.
 
         """
         self.ObservationAnnotation_list = []
@@ -189,10 +189,10 @@ class Society:
         """
         df, message = data_wrangler(self.raw_DataMatrix)
         self.track_messages.append(message)
+        self.DataMatrix = df
         if message:
-            self.DataMatrix = df
-        else:
-            self.DataMatrix = self.raw_DataMatrix
+            #print(df.values)
+            print(message)
 
 
     def get_communities(self, method='leiden'):
