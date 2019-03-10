@@ -305,7 +305,8 @@ class HiCoNet:
         top = [x for x in self.combined_network if x[4] < 0.05 and x[3] > 0]
         if len(top) < 10:
             top = self.combined_network[:10]
-        
+            
+        header2 = "datatypes_timepoints\tcommunity1_number\tcommunity2_number\tPLS_score\tp-value\n"
         with open(os.path.join(self.outdir, "top_networks.txt"), "w") as O:
             O.write(header + '\n'.join(['\t'.join([str(ii) for ii in x]) for x in top]) )
             
@@ -354,6 +355,8 @@ class HiCoNet:
         return json.dumps(result)
 
 
+
+
 class DeltaHiCoNet(HiCoNet):
     """
     This copies HiCoNet, but uses differences btw time points for PLS regression.
@@ -368,6 +371,20 @@ class DeltaHiCoNet(HiCoNet):
             sc.DataMatrix = []
             
         self.societies = new_societies
+
+    def __generate_delta(self):
+        """
+        Not used. Yet to implement.
+        
+        This expands the DataMatrix and ObservationAnnotation to add time differences btw observations.
+        E.g. antibody increase from baseline.
+
+        # delta should be considered as a new society
+
+        """
+        def make_observation_id(id1, id2): return '_minus_'.join((str(id2), str(id1)))
+
+        pass
 
 
 class webHiCoNet(HiCoNet):

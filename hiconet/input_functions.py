@@ -35,14 +35,19 @@ societies:
 workdir is also passed to proj_dict after reading yaml.
 """
 import os, yaml
+import numpy as np
 import pandas as pd
 from fuzzywuzzy import process as fuzzyfind
+
+from btm.btm_example_data import ModuleIndex, ModuleDict
 
 # Will need better management of parameters
 #_Data_Directory = './datasets/SDY80/'
 #_Minimal_Sample_Number: least number of shared subjects is required to perform network association.
 _Minimal_Sample_Number = 10
 NUM_PERMUTATION = 20    #200
+auto_BTM_conversion = True
+
 
 common_observation_IDs = ['BIOSAMPLE_ACCESSION', 'observation_ID', 'sample']
 common_subject_IDs = ['SUBJECT_ACCESSION', 'Participant ID', 'SUBJECT_ID', 'subject', 'Participant', 'patient', 'patient_ID', 'volunteer']
@@ -273,4 +278,30 @@ def data_indexer(df):
     return value_dict
 
 
+def compute_activity_score(M, df_gene):
+    '''
+    compute module M activity score as mean expression value of member genes, 
+    
+    Other methods will be considered later.
+    '''
+    data = []
+    for x in M:
+        try:
+            data.append(df_gene.loc[x])
+        except KeyError:
+            pass
+            
+    N = len(data)
+    return np.array(data).sum(0)/N
+
+def gene_2_btm(df_gene):
+    """Convert gene dataframe to BTM dataframe
+    """
+    data = []
+    cols = df_gene.columns
+    for x in ModuleIndex:
+        data.append( compute_activity_score(ModuleDict[x], df_gene) )
+    df = pd.DataFrame(np.array(data), index=ModuleIndex, columns=cols)
+    
+    return df
 

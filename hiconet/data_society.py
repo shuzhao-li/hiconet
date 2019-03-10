@@ -18,7 +18,8 @@ Hieracrchical Community Network
 """
 
 from input_functions import read_input_tables, fuzzy_index_2L, data_wrangler, \
-                            common_observation_IDs, common_subject_IDs, common_timepoint_labels, common_treatment_labels
+                            common_observation_IDs, common_subject_IDs, common_timepoint_labels, common_treatment_labels, \
+                            auto_BTM_conversion, gene_2_btm
 from community_detection import hierachical_clustering, leiden_find_communities, hierachical_clustering_lcms
 
 class Society:
@@ -81,6 +82,9 @@ class Society:
 
         # clean up DataMatrix
         self.cleanup()
+        if auto_BTM_conversion:
+            self.auto_BTM_convert()
+        
         # dict feature annotation
         self.get_feature_annotation()
         # subj _ time point _ treatment group
@@ -93,7 +97,17 @@ class Society:
         # sample_map_check
         # summary, issues, stats
         
-
+    def auto_BTM_convert(self):
+        """Convert gene table to BTM (Blood Transcription Modules) activity table.
+        
+        ?? need update project dictionary?
+        """
+        # check is_geneTable; only convert if > 3000 features
+        
+        if self.datatype == 'transcriptomics' and self.DataMatrix.shape[0] > 3000:
+            print("Converting transcriptomics data to BTM modules..")
+            self.DataMatrix = gene_2_btm(self.DataMatrix)
+        
 
     def get_feature_annotation(self):
         # ??
@@ -238,19 +252,6 @@ class Society:
         return s
 
 
-    def __generate_delta(self):
-        """
-        Not used. Will move to new class
-        
-        This expands the DataMatrix and ObservationAnnotation to add time differences btw observations.
-        E.g. antibody increase from baseline.
-
-        # delta should be considered as a new society
-
-        """
-        def make_observation_id(id1, id2): return '_minus_'.join((str(id2), str(id1)))
-
-        pass
 
 
 
