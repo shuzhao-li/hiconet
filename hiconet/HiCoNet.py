@@ -312,13 +312,17 @@ class HiCoNet:
             
             
     def sort_combined_network(self):
+        """Sort combined networks by p value
+        
+        """
         all = []
         for pn in self.networks:
             for e in pn.network_edges:
+                # pn.network_edges = [( g, m, PLSscore, p-value ), ...]
                 all += [[pn.name] + list(e)]
         
-        def sort2(val): return val[3]
-        all.sort(key = sort2, reverse = True)
+        def sort2(val): return val[4]
+        all.sort(key = sort2, reverse = False)
         self.combined_network = all
 
     def write_societies(self):
