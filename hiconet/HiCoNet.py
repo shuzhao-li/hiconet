@@ -1,4 +1,4 @@
-# Copyright 2018 Shuzhao Li. All Rights Reserved.
+# Copyright 2018-2019 Shuzhao Li. All Rights Reserved.
 #
 # Licensed under the BSD 3-Clause License.
 #
@@ -61,7 +61,13 @@ default integration schema:
         ? Requiring _Minimal_Sample_Number,
         ? Check of data quality and imputation will be added later.
 
+
 """
+
+
+__version__ = "0.3.1"
+__updated__ = "2019-03-14"
+
 
 import os
 import sys
@@ -70,7 +76,7 @@ import time
 import json
 from itertools import combinations
 
-from data_society import Society
+from data_society import Society, webSociety
 from input_functions import get_project_dict, _Minimal_Sample_Number
 
 from pls2_network import pairNetwork
@@ -109,10 +115,7 @@ class HiCoNet:
 
     def run_hiconet(self):
         """
-        
-        add to project dictionary, option to convert to BTM from transcriptomics
-        
-        
+        Local run routine
         """
         # verify association_dict and update if needed
         self.get_association_instructions()
@@ -133,12 +136,9 @@ class HiCoNet:
         to get associations to compute: check user's spec or infer ab initio.
         if no valid instruction from user input, do ab initio inference.
         
-        The scheme will be developed further in the future, 
-        e.g. allowing cross-timepoint too...
-        
-        Update self.dict_project_definition['associations']
+        ?? next?
         """
-        # if not self.dict_project_definition.has_key('associations')
+        
         if not 'associations' in self.dict_project_definition:
             self.dict_project_definition['associations'] = []
             for sc1,sc2 in combinations( self.societies, 2 ):
@@ -208,6 +208,7 @@ class HiCoNet:
             # based on validated lists [(subj, observation_ID), ...]; matching subjects
             A = {}
             dict2 = dict(L2)
+            # L1_use defines common subjects
             L1_use = [x for x in L1 if x[0] in dict2.keys()]
             A['observation_list_society1'] = [x[1] for x in L1_use]
             A['subjects'] = [x[0] for x in L1_use]
@@ -222,7 +223,7 @@ class HiCoNet:
         list_associations = []
         for T1 in sc1.timepoints:
             for T2 in sc2.timepoints:
-                # get obser in T
+                # get obser in the specified time point
                 L1 = [(sc1.dict_obser_subj[obser], obser) 
                       for obser in sc1.DataMatrix.columns if sc1.dict_obser_time[obser]==T1]
                 L2 = [(sc2.dict_obser_subj[obser], obser) 
@@ -243,11 +244,12 @@ class HiCoNet:
         """
         for A in self.dict_project_definition['associations']:
             if len(A['subjects']) > _Minimal_Sample_Number:
-                #print(A)
+                print("\n############################\n\n")
+                print(A)
                 pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
                 self.networks.append( pn )
-
-        self.network_edges = []
+            else:
+                print("Dropped %s, fewer samples than minimal requirement." %A['name'])
 
 
     def get_Societies(self):
@@ -308,7 +310,7 @@ class HiCoNet:
             
         header2 = "datatypes_timepoints\tcommunity1_number\tcommunity2_number\tPLS_score\tp-value\n"
         with open(os.path.join(self.outdir, "top_networks.txt"), "w") as O:
-            O.write(header + '\n'.join(['\t'.join([str(ii) for ii in x]) for x in top]) )
+            O.write(header2 + '\n'.join(['\t'.join([str(ii) for ii in x]) for x in top]) )
             
             
     def sort_combined_network(self):
@@ -361,11 +363,16 @@ class HiCoNet:
 
 
 
+
+
+
 class DeltaHiCoNet(HiCoNet):
     """
     This copies HiCoNet, but uses differences btw time points for PLS regression.
     
     Yet to implement.
+    
+    
     
     """
     def make_delta_societies(self, old_hiconet):
@@ -391,14 +398,79 @@ class DeltaHiCoNet(HiCoNet):
         pass
 
 
+
+
+
+
 class webHiCoNet(HiCoNet):
     """
     HiCoNet via web I/O.
     
-    Using a simplifed design, taking two prematched input matrices and compute HiCoNet.
+    Allowing scaling down, e.g. simplifed design, taking two prematched input matrices and compute HiCoNet.
+    i.e. get two society, do community detection, then compute PLS2 network.
+    
+    dict_project_definition will be given by web input.
+    From the web form, for each data type, a data matrix file, and optional annotation files are uploaded.
     
     """
-    pass
+    def json_to_proj_dict(self, json_input):
+        
+        
+        # convert json_input to dict_project_definition, if needed? 
+        
+        return {}
+        
+    def get_Societies(self, json_input):
+        """
+        Generate a list and dictionary of societies.
+        
+        Community detection is performed at initiation of webSociety.
+        
+        not needed: 'file_unstructured': ''
+        """
+        
+        
+        
+        
+        
+        for sd in self.dict_project_definition['societies']:
+            if sd['file_data_matrix']:
+                self.societies.append(webSociety(sd, ''))
+
+        self.society_dict = {}
+        for sc in self.societies:
+            self.society_dict[sc.name] = sc
+            
+    
+    def get_association_instructions(self):
+        """ 
+        """
+        self.dict_project_definition['associations'] = []
+        for sc1,sc2 in combinations( self.societies, 2 ):
+            print("Inferring association instruction", sc1.name, sc2.name)
+            self.dict_project_definition['associations'] += self.infer_association_dicts(sc1, sc2)
+    
+    
+    def run_community_associations(self):
+        """
+        input from web.
+        pn.network_edges = [( g, m, PLSscore, p-value ), ...]
+        """
+        pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
+        
+        self.networks.append( pn )
+
+    def run_hiconet(self):
+        """
+        web run routine
+        """
+        # heavy lifting - PLS2 regression and permutation for each association
+        self.networks = []
+        self.run_community_associations()
+        self.sort_combined_network()
+        
+        # to update for web output
+        print(self.export_json())
 
 
 # -------------------------------------------------------------------
@@ -417,12 +489,25 @@ def run_local_HiCoNet():
                    make_js_from_network(H.combined_network[:20]))
 
 
-def run_web_HiCoNet(textField1, textField2, dataType1, dataType2):
-    proj_dict = {
-        }
+def run_web_HiCoNet(name_Field1, name_Field2, dataType1, dataType2, data_loc1, data_loc2):
+    """
+    Use web form input to update project dictionary
+    """
+    
+    proj_dict.update({}
+        )
+        
+        
     H = webHiCoNet(proj_dict)
     H.run_hiconet()
     
+
+
+# -------------------------------------------------------------------
+#
+# local main
+#
+#
 
 if __name__ == '__main__':
     '''
@@ -432,4 +517,27 @@ if __name__ == '__main__':
 
     # regular HiCoNet from local dir
     run_local_HiCoNet()
+    
+    # parameters to be obtained via web
+    proj_dict = {
+        'project': 'web_project_', 
+        #'source_id': 'web_input', 
+        #'retrieved_data': '2019-0-0', 
+        #'data_from': 'web_user', 
+        'societies': [
+        {'name': '', 
+         'datatype': '', 
+         'file_data_matrix': '',
+         'file_feature_annotation': '', 
+         'file_observation_annotation': '', 
+         }, 
+        {'name': '', 
+         'datatype': '', 
+         'file_data_matrix': '',
+         'file_feature_annotation': '', 
+         'file_observation_annotation': '', 
+         }, 
+                      ]}
+    #run_web_HiCoNet()
+    
     

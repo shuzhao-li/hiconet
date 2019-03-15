@@ -72,6 +72,7 @@ class Society:
         Get input tables, also match annotation, check stats
         #[DataMatrix, ObservationAnnotation, FeatureAnnotation, unstructured,] = read_input_tables(_Data_Directory, dict_society)
 
+        # summary, issues, stats
         """
         [
         self.raw_DataMatrix,
@@ -90,12 +91,6 @@ class Society:
         # subj _ time point _ treatment group
         self.get_observation_annotation()
 
-        # delta should be considered as a new society
-        #self.generate_delta()
-
-        # match annotation
-        # sample_map_check
-        # summary, issues, stats
         
     def auto_BTM_convert(self):
         """Convert gene table to BTM (Blood Transcription Modules) activity table.
@@ -117,7 +112,7 @@ class Society:
 
     def get_observation_annotation(self):
         """
-        To get a data structure 
+        To extract a new data structure from self.ObservationAnnotation
         self.ObservationAnnotation_list = [[observation_ID, subj_ID, time point, treatment], ...] 
         
         This will be used to match btw socieities in constructing the association dicts
@@ -209,14 +204,14 @@ class Society:
             print(message)
 
 
-    def get_communities(self, method='leiden'):
+    def get_communities(self, method=''):
         """
-        Testing stage, using leiden or hcl only
+        Default is leiden method for commuity detection.
+        If not specified, lcms_hcl is default for LC-MS metabolomics.
         
-        option to designate minimal cluster number/size?
+        option to designate minimal cluster number/size, and optimal number of clusters.
 
         self.Communities is a dictionary {community_ID: [feature_ID, ...], ...}
-        
         
         TO-DO add community annotation function
         
@@ -228,17 +223,23 @@ class Society:
                             'leiden',
                             #'test',
                             ]
-        if method not in available_methods:
-            raise ValueError('Provide a valid method, one of {}.'.format(available_methods))
-        if method == 'hcl':
-            # This return format will change -
-            self.Clus, self.Communities = hierachical_clustering(self.DataMatrix)
+        if not method:
+            if self.datatype == 'metabolomics': method = 'lcms_hcl'     # this needs further specifications for more data formats
+            else: method = 'leiden'
+        
+        # dispatch 
         if method == 'leiden':
             self.Clus, self.Communities = leiden_find_communities(self.DataMatrix)
-        elif method == '':
-            pass
+        elif method == 'lcms_hcl':
+            # also using information, e.g. retention time, in FeatureAnnotation
+            print("Using lcms_hcl for LC-MS metabolomics.")
+            self.Clus, self.Communities = hierachical_clustering_lcms(self.DataMatrix, self.FeatureAnnotation)
+        elif method == 'hcl':
+            # is this a good return format?
+            self.Clus, self.Communities = hierachical_clustering(self.DataMatrix)
+        elif method not in available_methods:
+            raise ValueError('Provide a valid method, one of {}.'.format(available_methods))
 
-        
 
     def export_communities_table(self):
         """
@@ -250,6 +251,43 @@ class Society:
                 s += '\t'.join([str(x) for x in 
                                 [k, member, self.feature_member_annotation[member]]]) + '\n'
         return s
+
+
+
+class webSociety(Society):
+    """Simplified for web version.
+    self.get_communities() is run upon init.
+    """
+    
+    def populate_data_tables(self, dict_society, _dir=''):
+        """
+        Get input tables, also match annotation, check stats
+        #[DataMatrix, ObservationAnnotation, FeatureAnnotation, unstructured,] = read_input_tables(_Data_Directory, dict_society)
+        dict_society:
+            {'name': 'genes', 
+            'datatype': 'transcriptomics', 
+            'file_data_matrix': web_loc,
+            }
+        All tables have to comply with format: data matrix is M x N, features as col 0.
+        Annotation tables use col 0 as common ID
+        """
+        self.raw_DataMatrix = pd.read_csv(dict_society['file_data_matrix'], sep='\t', index_col=0)
+        self.ObservationAnnotation = {}
+        self.FeatureAnnotation = {}
+        # clean up DataMatrix
+        self.cleanup()
+        if auto_BTM_conversion:
+            self.auto_BTM_convert()
+        
+    def get_observation_annotation(self):
+        """
+        simplified for web I/O, which requires prematched samples.
+        
+        Return
+        ------
+        dictionary {'col0': 'user_supplied_0', 'col1': 'user_supplied_1', ...}
+        """
+
 
 
 

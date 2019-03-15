@@ -169,7 +169,7 @@ javascript_END = """
 
 
 def quote(s):
-    return '"'+s+'"'
+    return '"'+str(s)+'"'
 
 def make_cytoscape_js_from_json(json_input):
     pass

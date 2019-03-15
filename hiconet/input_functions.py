@@ -85,7 +85,7 @@ def read_input_tables(_dir, dict_society):
 
     FeatureAnnotation = {}
     if dict_society['file_feature_annotation']:
-        FeatureAnnotation = pd.read_csv(os.path.join(_dir, dict_society['file_feature_annotation']), sep='\t')
+        FeatureAnnotation = pd.read_csv(os.path.join(_dir, dict_society['file_feature_annotation']), sep='\t', index_col=0)
 
     unstructured = {}
     if dict_society['file_unstructured']:

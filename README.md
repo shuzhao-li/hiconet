@@ -58,29 +58,17 @@ for integration of multiple data types collected from a common group of subjects
 
     BTM conversion is automatically on for transcriptomics data (checking if gene number > 3000)
 
-    To convert transcriptomics to BTM activity scores:
+    To convert transcriptomics to BTM activity scores manually:
     ➜  Code cd hiconet/hiconet/btm
     ➜  btm git:(master) ✗ ls
     __init__.py         btm_example_data.py btm_tool.py
     ➜  btm git:(master) ✗ python
     >>> from btm_tool import genetable_to_activityscores
-    >>> 
-    >>> genetable_to_activityscores('/Users/sli/Desktop/SDY522/immport_results_SDY522_SDY522_Other_LAIV_Expression_Matrices.tsv', 
+    >>>
+    >>> genetable_to_activityscores('/Users/sli/Desktop/SDY522/immport_results_SDY522_SDY522_Other_LAIV_Expression_Matrices.tsv',
         '/Users/sli/Desktop/SDY522/BTMactivity_SDY522.txt')
-    >>> 
+    >>>
 
 
 ## Planning
-Need set up a web server asap (JR?)
-
-Need js based visualization of data. 
-Current version has HiCoNet.export_json working.
-
-Build Docker container.
-
-Apply to ImmPort datasets.
-
-Add time_difference feature (SL)
-
-
-
+We will use the "Projects" and "Wiki" for planning.

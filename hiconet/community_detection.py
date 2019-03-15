@@ -20,8 +20,6 @@ input dataframe has to be correctly read: values start at position [0,0].
     Extra rows/columns go to SampleDictionary/FeatureDictionary
 
 
-
-
 """
 
 __all__ = ["hierachical_clustering", "hierachical_clustering_lcms",
@@ -30,6 +28,7 @@ __all__ = ["hierachical_clustering", "hierachical_clustering_lcms",
             # to add other methods
           ]
 
+import numpy as np
 from scipy.cluster.hierarchy import *
 from scipy.spatial.distance import pdist
 
@@ -88,23 +87,24 @@ def girvan_newton_spectral_clustering():
     pass
 
 
-def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
+def hierachical_clustering_lcms(DataMatrix, FeatureAnnotation, distanceCut = 3):
     """Clustering of LC-MS data by considering retention time.
+    This uses the trio data structure
     
-    Yet to port into HiCoNet
+    Metabolomics FeatureAnnotation must have columns 'mz', 'rtime'.
+    
+    porting into HiCoNet
     """
 
     # Clustering of metabolite features
     # distance matrix, this is [1 - (Pearson R)]
-    metabo = self.dataframe
+    metabo = DataMatrix
     YM = pdist(metabo.values[:, 1:], 'correlation')
     print(metabo.shape, YM.shape)
 
-    #
     # New method, weighting delta retention time into new distance matrix
-    #
-
-    retention_time = [float(x.split("_")[1]) for x in metabo.index]         # Note this relies on correct reading table; index is mz_rt
+    retention_time = [FeatureAnnotation.loc[x, 'rtime'] for x in metabo.index]         
+    # Note this relies on correct reading table; index is mz_rt
     min_retention_time, max_retention_time = min(retention_time), max(retention_time)
     range_retention_time = max_retention_time - min_retention_time
     print("min_retention_time, max_retention_time", min_retention_time, max_retention_time)
@@ -142,8 +142,6 @@ def hierachical_clustering_lcms(df, rtime, distanceCut = 3):
             metClusDict[ metClus[ii] ].append(ii)
         else:
             metClusDict[ metClus[ii] ] = [ii]
-
-    print(metClusDict.items()[:3])    # This organizes cluster, members
 
     return metClus, metClusDict
 
