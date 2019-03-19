@@ -16,11 +16,13 @@ Hieracrchical Community Network
     Treatment:
 
 """
+import pandas as pd
+from pandas.compat import StringIO
 
-from input_functions import read_input_tables, fuzzy_index_2L, data_wrangler, \
+from .input_functions import read_input_tables, fuzzy_index_2L, data_wrangler, \
                             common_observation_IDs, common_subject_IDs, common_timepoint_labels, common_treatment_labels, \
                             auto_BTM_conversion, gene_2_btm
-from community_detection import hierachical_clustering, leiden_find_communities, hierachical_clustering_lcms
+from .community_detection import hierachical_clustering, leiden_find_communities, hierachical_clustering_lcms
 
 class Society:
     """
@@ -266,27 +268,61 @@ class webSociety(Society):
         dict_society:
             {'name': 'genes', 
             'datatype': 'transcriptomics', 
-            'file_data_matrix': web_loc,
+            'file_data_matrix': input_str,
             }
         All tables have to comply with format: data matrix is M x N, features as col 0.
         Annotation tables use col 0 as common ID
+        
+        For web input, pre-matched data columns are required, thus simplified data matching.
         """
-        self.raw_DataMatrix = pd.read_csv(dict_society['file_data_matrix'], sep='\t', index_col=0)
+        self.raw_DataMatrix = pd.read_csv(
+            StringIO(dict_society['file_data_matrix']), sep='\t', index_col=0)
+        # pre-matched data columns are required for web I/O
+        # ObservationAnnotation has to be constructed in a way to be compatible with default data structure 
         self.ObservationAnnotation = {}
+        # FeatureAnnotation may be necessary, e.g. LC-MS data are grouped using rtime in FeatureAnnotation
+        
         self.FeatureAnnotation = {}
+        if dict_society['file_feature_annotation']:
+            self.FeatureAnnotation = pd.read_csv(
+                StringIO(dict_society['file_feature_annotation']), sep='\t', index_col=0)
+
+        
         # clean up DataMatrix
         self.cleanup()
         if auto_BTM_conversion:
             self.auto_BTM_convert()
+                
+        # dict feature annotation
+        self.get_feature_annotation()
+        # subj _ time point _ treatment group
+        self.get_observation_annotation()
         
     def get_observation_annotation(self):
         """
         simplified for web I/O, which requires prematched samples.
         
-        Return
+        self.ObservationAnnotation_list = [[observation_ID, subj_ID, time point, treatment], ...] 
+        
+        This will be used to match btw socieities in constructing the association dicts
+        
+        
         ------
-        dictionary {'col0': 'user_supplied_0', 'col1': 'user_supplied_1', ...}
+        dictionary {'user_supplied_0': 'col0', 'user_supplied_1': 'col1', ...}
         """
+        self.ObservationAnnotation_list = []
+        ii = 0
+        for observation_ID in self.raw_DataMatrix.columns:
+            ii += 1
+            self.ObservationAnnotation_list.append( [observation_ID, 'col'+str(ii), 0, 'x'] )
+
+        #print("self.ObservationAnnotation_list", self.ObservationAnnotation_list)
+        self.subjects = set([ L[1] for L in self.ObservationAnnotation_list ])
+        self.timepoints = set([ L[2] for L in self.ObservationAnnotation_list ])
+        
+        #print("self.timepoints", self.timepoints)
+        self.make_dict_obser_subj()
+        self.make_dict_obser_time()
 
 
 

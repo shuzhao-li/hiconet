@@ -65,8 +65,8 @@ default integration schema:
 """
 
 
-__version__ = "0.3.1"
-__updated__ = "2019-03-14"
+__version__ = "0.4.1"
+__updated__ = "2019-03-19"
 
 
 import os
@@ -76,11 +76,11 @@ import time
 import json
 from itertools import combinations
 
-from data_society import Society, webSociety
-from input_functions import get_project_dict, _Minimal_Sample_Number
+from .data_society import Society, webSociety
+from .input_functions import get_project_dict, _Minimal_Sample_Number
 
-from pls2_network import pairNetwork
-from html_visual import make_js_from_network, make_html_page
+from .pls2_network import pairNetwork
+from .html_visual import make_js_from_network, make_html_page
 
 
 class HiCoNet:
@@ -352,15 +352,15 @@ class HiCoNet:
         One community network, 
         List of communities,
         Definition of each community.
+        
+        To-do: export societies in usable format
+        
         """
         result = {'network': self.combined_network,
-                  'societies': [(sc.name, sc.datatype, sc.Communities, sc.feature_member_annotation
-                                 ) for sc in self.societies
-                      ]
+                  'societies': [ ]
+                  # [(sc.name, sc.datatype, sc.Communities, sc.feature_member_annotation) for sc in self.societies]
             }
         return json.dumps(result)
-
-
 
 
 
@@ -413,14 +413,8 @@ class webHiCoNet(HiCoNet):
     From the web form, for each data type, a data matrix file, and optional annotation files are uploaded.
     
     """
-    def json_to_proj_dict(self, json_input):
         
-        
-        # convert json_input to dict_project_definition, if needed? 
-        
-        return {}
-        
-    def get_Societies(self, json_input):
+    def get_Societies(self):
         """
         Generate a list and dictionary of societies.
         
@@ -428,10 +422,6 @@ class webHiCoNet(HiCoNet):
         
         not needed: 'file_unstructured': ''
         """
-        
-        
-        
-        
         
         for sd in self.dict_project_definition['societies']:
             if sd['file_data_matrix']:
@@ -441,9 +431,12 @@ class webHiCoNet(HiCoNet):
         for sc in self.societies:
             self.society_dict[sc.name] = sc
             
-    
+    '''
     def get_association_instructions(self):
         """ 
+        No time point is used for web I/O.
+        Get pairwise combinations of societies.
+        Current web input takes two Societies, but more will be allowed later.
         """
         self.dict_project_definition['associations'] = []
         for sc1,sc2 in combinations( self.societies, 2 ):
@@ -459,6 +452,7 @@ class webHiCoNet(HiCoNet):
         pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
         
         self.networks.append( pn )
+    '''
 
     def run_hiconet(self):
         """
@@ -466,11 +460,14 @@ class webHiCoNet(HiCoNet):
         """
         # heavy lifting - PLS2 regression and permutation for each association
         self.networks = []
+        self.get_association_instructions()
+        print(self.dict_project_definition['associations'])
+        
         self.run_community_associations()
         self.sort_combined_network()
         
         # to update for web output
-        print(self.export_json())
+        #print(self.export_json())
 
 
 # -------------------------------------------------------------------
@@ -489,12 +486,34 @@ def run_local_HiCoNet():
                    make_js_from_network(H.combined_network[:20]))
 
 
-def run_web_HiCoNet(name_Field1, name_Field2, dataType1, dataType2, data_loc1, data_loc2):
+def run_web_HiCoNet(json_dict):
     """
     Use web form input to update project dictionary
+    e.g.
+    name_Field1, name_Field2, dataType1, dataType2, data_loc1, data_loc2
     """
+    # parameters to be obtained via web
+    proj_dict = {
+        'project': 'web_project_', 
+        #'source_id': 'web_input', 
+        #'retrieved_data': '2019-0-0', 
+        #'data_from': 'web_user', 
+        'societies': [
+        {'name': '', 
+         'datatype': '', 
+         'file_data_matrix': '',
+         'file_feature_annotation': '', 
+         'file_observation_annotation': '', 
+         }, 
+        {'name': '', 
+         'datatype': '', 
+         'file_data_matrix': '',
+         'file_feature_annotation': '', 
+         'file_observation_annotation': '', 
+         }, 
+                      ]}
     
-    proj_dict.update({}
+    proj_dict.update(json_dict
         )
         
         
@@ -518,26 +537,7 @@ if __name__ == '__main__':
     # regular HiCoNet from local dir
     run_local_HiCoNet()
     
-    # parameters to be obtained via web
-    proj_dict = {
-        'project': 'web_project_', 
-        #'source_id': 'web_input', 
-        #'retrieved_data': '2019-0-0', 
-        #'data_from': 'web_user', 
-        'societies': [
-        {'name': '', 
-         'datatype': '', 
-         'file_data_matrix': '',
-         'file_feature_annotation': '', 
-         'file_observation_annotation': '', 
-         }, 
-        {'name': '', 
-         'datatype': '', 
-         'file_data_matrix': '',
-         'file_feature_annotation': '', 
-         'file_observation_annotation': '', 
-         }, 
-                      ]}
+    
     #run_web_HiCoNet()
     
     

@@ -1,0 +1,25 @@
+project: vivax_gardinassi
+data_from: SL
+source_id: Colombia
+retrieved_data: 2018-01-01
+
+
+# Each data type in a project = a Society
+# society name needs to be unique!
+# observation is related to samples, subjects, treatment, time point, etc.
+# data matrix using convention of features x observations !!!
+
+societies:
+- name: genes
+  datatype: transcriptomics
+  file_data_matrix: 'formatted_BTMs_diag_basel.txt'
+  file_feature_annotation: ''
+  file_observation_annotation: ''
+  file_unstructured: ''
+
+- name: metabolomics_HILICpos
+  datatype: metabolomics
+  file_data_matrix: 'HILIC_pos_diag_basel.txt'
+  file_feature_annotation: 'HILIC_pos_diag_basel_feature_annotation.txt'
+  file_observation_annotation: ''
+  file_unstructured: ''

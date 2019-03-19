@@ -39,7 +39,7 @@ import numpy as np
 import pandas as pd
 from fuzzywuzzy import process as fuzzyfind
 
-from btm.btm_example_data import ModuleIndex, ModuleDict
+from .btm.btm_example_data import ModuleIndex, ModuleDict
 
 # Will need better management of parameters
 #_Data_Directory = './datasets/SDY80/'
@@ -93,7 +93,8 @@ def read_input_tables(_dir, dict_society):
 
     return [DataMatrix, ObservationAnnotation, FeatureAnnotation, unstructured]
 
-
+#
+# Not used
 def read_web_input(textField1, textField2, dataType1='dataType1', dataType2='dataType1'):
     """Process input files from web browser. 
     Web input is simplified as two data matrices with matched columns, without requiring annotations.
@@ -118,20 +119,33 @@ def read_web_input(textField1, textField2, dataType1='dataType1', dataType2='dat
 
 
 def get_project_dict(_source='local', _dir='.'):
-    """If local, look for file 'project.yaml'; (else, get from web?)
+    """If local, look for file 'project.yaml'; 
+    Can do webtest.
+    The web input is given by server UI in JSON, not here.
 
     Returns
     -------
     project dictionary
     """
-    if _source == 'local':
-        files = os.listdir(_dir)
-        if 'project.yaml' in files:
-            d = read_yaml_file(os.path.join(_dir, 'project.yaml'))
-            d['workdir'] = _dir
+    files = os.listdir(_dir)
+    if 'project.yaml' in files:
+        d = read_yaml_file(os.path.join(_dir, 'project.yaml'))
+        d['workdir'] = _dir
+        if _source == 'local':
             return d
         else:
-            raise Exception("'project.yaml' not found.")
+            # web test
+            newlist = []
+            for sc in d['societies']:
+                sc['file_data_matrix'] = open(os.path.join(_dir, sc['file_data_matrix'])).read()
+                if sc['file_feature_annotation']:
+                    sc['file_feature_annotation'] = open(os.path.join(_dir, sc['file_feature_annotation'] )).read()
+                newlist.append(sc)
+            d['societies'] = newlist
+            return d
+    else:
+        raise Exception("'project.yaml' not found.")
+    
 
 def read_yaml_file(yaml_file):
     return yaml.load(open(yaml_file).read())

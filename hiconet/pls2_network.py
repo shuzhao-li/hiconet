@@ -10,7 +10,7 @@ from random import sample as permutation
 import numpy as np
 from sklearn.cross_decomposition import PLSRegression
 
-from input_functions import NUM_PERMUTATION
+from .input_functions import NUM_PERMUTATION
 
 
 class pairNetwork:
