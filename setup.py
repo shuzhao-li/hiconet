@@ -37,8 +37,10 @@ setup(
     'pandas',
     'sklearn',
     'leidenalg',
-    'igraph',
+    'python-igraph',
     'fuzzywuzzy',
+    'pyyaml',
+    'scanpy',
 
   ],
 
