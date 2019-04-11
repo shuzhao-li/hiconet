@@ -65,8 +65,8 @@ default integration schema:
 """
 
 
-__version__ = "0.4.1"
-__updated__ = "2019-03-19"
+__version__ = "0.4.3"
+__updated__ = "2019-04-11"
 
 
 import os
@@ -357,7 +357,7 @@ class HiCoNet:
         
         """
         result = {'network': self.combined_network,
-                  'societies': [ ]
+                  'societies': [(sc.name, sc.datatype, sc.Communities) for sc in self.societies],
                   # [(sc.name, sc.datatype, sc.Communities, sc.feature_member_annotation) for sc in self.societies]
             }
         return json.dumps(result)

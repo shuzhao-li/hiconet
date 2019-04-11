@@ -54,7 +54,7 @@ for integration of multiple data types collected from a common group of subjects
 
 
 ## Test run
-➜  hiconet python3 hiconet/HiCoNet.py hiconet/datasets/SDY80
+➜  hiconet python3 -m hiconet.HiCoNet hiconet/datasets/SDY80
 
     BTM conversion is automatically on for transcriptomics data (checking if gene number > 3000)
 
