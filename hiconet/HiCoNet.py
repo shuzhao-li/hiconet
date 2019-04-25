@@ -136,7 +136,6 @@ class HiCoNet:
         to get associations to compute: check user's spec or infer ab initio.
         if no valid instruction from user input, do ab initio inference.
         
-        ?? next?
         """
         
         if not 'associations' in self.dict_project_definition:
@@ -292,7 +291,8 @@ class HiCoNet:
         
     def write_networks(self):
         """
-        Write all network edges, and a separate file for top networks
+        Write all network edges, and a separate file for top networks.
+        But the top networks use composite community IDs.
         """
         header = "datatype_1\tdatatype_2\tcommunity1_number\tcommunity2_number\tPLS_score\tp-value\n"
         for pn in self.networks:
@@ -304,6 +304,7 @@ class HiCoNet:
             with open(os.path.join(self.outdir_individual_networks, pn.name + "_network.txt"), "w") as O:
                 O.write(s)
 
+        # self.combined_network is created in sort_combined_network
         top = [x for x in self.combined_network if x[4] < 0.05 and x[3] > 0]
         if len(top) < 10:
             top = self.combined_network[:10]
@@ -315,13 +316,16 @@ class HiCoNet:
             
     def sort_combined_network(self):
         """Sort combined networks by p value
-        
+        Use composite community_numbers (`sc.name`.`community_ID`) from this function, 
+        so that later JSON export can have unique ID for each community
         """
         all = []
         for pn in self.networks:
             for e in pn.network_edges:
                 # pn.network_edges = [( g, m, PLSscore, p-value ), ...]
-                all += [[pn.name] + list(e)]
+                all += [[pn.name, '.'.join((pn.dict['society1'], str(e[0]))),
+                         '.'.join((pn.dict['society2'], str(e[1]))), 
+                         e[2], e[3]]]
         
         def sort2(val): return val[4]
         all.sort(key = sort2, reverse = False)
@@ -347,18 +351,27 @@ class HiCoNet:
     def export_json(self):
         """export
         network of communities
-        community definition, annotation and members
+        community definition, members and later, annotation.
         
-        One community network, 
-        List of communities,
-        Definition of each community.
+        combined_network = [(name, g, m, PLSscore, p-value ), ...]
+        Community_ID = `sc.name`.`community_ID`
         
-        To-do: export societies in usable format
+        The basic organizaiton is hierarchy of three levels:
+        community network, communities, features. 
+        One community network, List of communities, Definition and members of each community.
         
+        To-do:
+        add societies so that feature heatmaps can be generated from the society data
         """
+        community_dict = {}
+        for sc in self.societies:
+            for c, L in sc.Communities.items():
+                # Communities is a dictionary {community_ID: [feature_index, ...], ...}
+                community_dict['.'.join((sc.name, str(c)))] = [sc.feature_member_annotation[x] for x in L]
+        
         result = {'network': self.combined_network,
-                  'societies': [(sc.name, sc.datatype, sc.Communities) for sc in self.societies],
-                  # [(sc.name, sc.datatype, sc.Communities, sc.feature_member_annotation) for sc in self.societies]
+                  #'societies': [(sc.name, sc.datatype, sc.Communities) for sc in self.societies],
+                  'communities': community_dict,
             }
         return json.dumps(result)
 
@@ -430,29 +443,6 @@ class webHiCoNet(HiCoNet):
         self.society_dict = {}
         for sc in self.societies:
             self.society_dict[sc.name] = sc
-            
-    '''
-    def get_association_instructions(self):
-        """ 
-        No time point is used for web I/O.
-        Get pairwise combinations of societies.
-        Current web input takes two Societies, but more will be allowed later.
-        """
-        self.dict_project_definition['associations'] = []
-        for sc1,sc2 in combinations( self.societies, 2 ):
-            print("Inferring association instruction", sc1.name, sc2.name)
-            self.dict_project_definition['associations'] += self.infer_association_dicts(sc1, sc2)
-    
-    
-    def run_community_associations(self):
-        """
-        input from web.
-        pn.network_edges = [( g, m, PLSscore, p-value ), ...]
-        """
-        pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
-        
-        self.networks.append( pn )
-    '''
 
     def run_hiconet(self):
         """
@@ -499,13 +489,13 @@ def run_web_HiCoNet(json_dict):
         #'retrieved_data': '2019-0-0', 
         #'data_from': 'web_user', 
         'societies': [
-        {'name': '', 
+        {'name': 'data1', 
          'datatype': '', 
          'file_data_matrix': '',
          'file_feature_annotation': '', 
          'file_observation_annotation': '', 
          }, 
-        {'name': '', 
+        {'name': 'data2', 
          'datatype': '', 
          'file_data_matrix': '',
          'file_feature_annotation': '', 

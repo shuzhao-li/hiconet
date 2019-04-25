@@ -50,7 +50,7 @@ for integration of multiple data types collected from a common group of subjects
     Note: python-igraph requires the C library igraph  
     https://stackoverflow.com/questions/45667147/install-python-igraph-on-mac
     I did pip3 install ~/Downloads/python-igraph-0.7.1-1.tar.gz
-
+    For a Docker or new install, both igraph and python-igraph are needed.
 
 
 ## Test run

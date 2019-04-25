@@ -242,6 +242,8 @@ class Society:
         elif method not in available_methods:
             raise ValueError('Provide a valid method, one of {}.'.format(available_methods))
 
+        #self.annotate_communities()
+
 
     def export_communities_table(self):
         """
