@@ -110,7 +110,8 @@ class HiCoNet:
         # get self.societies and self.society_dict
         self.societies = []
         self.get_Societies()
-        
+        self.networks = []
+        self.network_dict = {}
         
 
     def run_hiconet(self):
@@ -121,7 +122,6 @@ class HiCoNet:
         self.get_association_instructions()
         
         # heavy lifting - PLS2 regression and permutation for each association
-        self.networks = []
         self.run_community_associations()
         
         self.make_outdir()
@@ -247,6 +247,8 @@ class HiCoNet:
                 print(A)
                 pn = pairNetwork(A, self.society_dict[A['society1']], self.society_dict[A['society2']])
                 self.networks.append( pn )
+                self.network_dict[pn.name] = pn
+                 
             else:
                 print("Dropped %s, fewer samples than minimal requirement." %A['name'])
 
@@ -343,17 +345,21 @@ class HiCoNet:
         """
         write Python pickle object for entire HiCoNet instance.
         Pickle is unsafe and should not be used for data exchange.
+        
+        
+        To-do:
+        more controlled dump.
+        
         """
         pickle.dump(self, open(os.path.join(self.outdir, "hiconet_data.pickle"), "wb"))
         print("HiCoNet dumped into hiconet_data.pickle.")
         
 
-    def export_json(self):
+    def export_json(self, max_num_edges=50):
         """export
-        network of communities
-        community definition, members and later, annotation.
+        a) network of communities, b) list of communities, c) community definition/members
         
-        combined_network = [(name, g, m, PLSscore, p-value ), ...]
+        combined_network = [(name, community_type1, community_type2, PLSscore, p-value ), ...]
         Community_ID = `sc.name`.`community_ID`
         
         The basic organizaiton is hierarchy of three levels:
@@ -361,22 +367,82 @@ class HiCoNet:
         One community network, List of communities, Definition and members of each community.
         
         To-do:
-        add societies so that feature heatmaps can be generated from the society data
+        Feature heatmaps generated from the society data should be specific to time point
+        Community annotations.
+        To list two tabs, nodes/edges on right panel.
+        
         """
-        community_dict = {}
+        nodes, elements = self.table_to_cy_js_elements( self.combined_network, max_num_edges )
+        community_members, community_data = {}, {}
         for sc in self.societies:
             for c, L in sc.Communities.items():
                 # Communities is a dictionary {community_ID: [feature_index, ...], ...}
-                community_dict['.'.join((sc.name, str(c)))] = [sc.feature_member_annotation[x] for x in L]
+                n = '.'.join((sc.name, str(c)))
+                # Only export data in use
+                if n in nodes:
+                    community_members[n] = [sc.feature_member_annotation[x] for x in L]
+                    
+                    # To make this specific to time point in future, using pn.dict['observation_list_society1']
+                    
+                    
+                    # orient="values"
+                    community_data[n] = sc.DataMatrix.iloc[L, :].to_json(orient="split")
         
-        result = {'network': self.combined_network,
-                  #'societies': [(sc.name, sc.datatype, sc.Communities) for sc in self.societies],
-                  'communities': community_dict,
+        result = {
+            # this is the network (nodes and edges), called elements in cytoscape.js
+            'elements': elements,
+            'list_communities': list(nodes),
+            'community_members': community_members,
+            'community_data': community_data,
             }
+        
         return json.dumps(result)
 
+    def table_to_cy_js_elements(self, combined_network, max_num_edges):
+        """
+        Convert the combined_network in table format to cytoscape.js JSON format:
+        http://js.cytoscape.org/#notation/elements-json
+        
+        combined_network = [(name, community_type1, community_type2, PLSscore, p-value ), ...]
+        already sorted by p-value.
+        
+        Returns
+        =======
+        Set of nodes, list of elements
+        """
+        allnodes = []
+        for x in combined_network[:max_num_edges]: allnodes += x[1: 3]
+        allnodes = set(allnodes)
+        nodes = []
+        for n in allnodes:
+            # node type (classes) is already included in community IDs
+            nodes.append({'data': {'id': n}, 'classes': [n.split('.')[0]],
+                })
+        
+        edges = []
+        for x in combined_network[:max_num_edges]:
+            edges.append({'data': {'id': x[0],
+                                   'source': x[1],
+                                   'target': x[2],
+                                   'weight': x[4],  # p-value
+                                   },
+                })
+        # cytoscape.js elements as flat array of nodes and edges
+        return allnodes, nodes + edges
 
-
+    def jsonfy_community_data(self):
+        """
+        Make format for ApexCharts. 
+        https://apexcharts.com/docs/chart-types/heatmap-charts/
+        series: [{
+                    name: 'Metric1',
+                    data: [],
+                }, ...]
+        
+        May need normalize data.
+        
+        """
+        return ''
 
 
 class DeltaHiCoNet(HiCoNet):
@@ -449,7 +515,6 @@ class webHiCoNet(HiCoNet):
         web run routine
         """
         # heavy lifting - PLS2 regression and permutation for each association
-        self.networks = []
         self.get_association_instructions()
         print(self.dict_project_definition['associations'])
         
@@ -471,9 +536,14 @@ def run_local_HiCoNet():
     H = HiCoNet(proj_dict)
     H.run_hiconet()
     
-    # testing html and js, up to 20 edges
+    # export JSON to file
+    out = open(os.path.join(H.outdir, "result.json"), 'w')
+    out.write(H.export_json())
+    out.close()
+    
+    # testing html and js, up to 50 edges. This will be updated by the full JSON
     make_html_page(os.path.join(H.outdir, "summary.html"),
-                   make_js_from_network(H.combined_network[:20]))
+                   make_js_from_network(H.combined_network[:50]))
 
 
 def run_web_HiCoNet(json_dict):
