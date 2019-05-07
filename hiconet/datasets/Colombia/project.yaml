@@ -1,7 +1,7 @@
 project: vivax_gardinassi
 data_from: SL
 source_id: Colombia
-retrieved_data: 2018-01-01
+retrieved_data: 2019-05-07
 
 
 # Each data type in a project = a Society
@@ -14,12 +14,12 @@ societies:
   datatype: transcriptomics
   file_data_matrix: 'formatted_BTMs_diag_basel.txt'
   file_feature_annotation: ''
-  file_observation_annotation: ''
+  file_observation_annotation: 'samples_meta.txt'
   file_unstructured: ''
 
 - name: metabolomics_HILICpos
   datatype: metabolomics
   file_data_matrix: 'HILIC_pos_diag_basel.txt'
   file_feature_annotation: 'HILIC_pos_diag_basel_feature_annotation.txt'
-  file_observation_annotation: ''
+  file_observation_annotation: 'samples_meta.txt'
   file_unstructured: ''

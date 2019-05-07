@@ -1,0 +1,13 @@
+Sample	Time	Group
+N1	diag_subtract_baseline	Naive
+N2	diag_subtract_baseline	Naive
+N3	diag_subtract_baseline	Naive
+N4	diag_subtract_baseline	Naive
+N5	diag_subtract_baseline	Naive
+N6	diag_subtract_baseline	Naive
+SI1	diag_subtract_baseline	Semi-Immunune
+SI2	diag_subtract_baseline	Semi-Immunune
+SI3	diag_subtract_baseline	Semi-Immunune
+SI4	diag_subtract_baseline	Semi-Immunune
+SI5	diag_subtract_baseline	Semi-Immunune
+SI6	diag_subtract_baseline	Semi-Immunune
