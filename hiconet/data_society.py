@@ -308,6 +308,7 @@ class webSociety(Society):
         
         This will be used to match btw socieities in constructing the association dicts
         
+        Set for now: self.timepoints = [0]
         
         ------
         dictionary {'user_supplied_0': 'col0', 'user_supplied_1': 'col1', ...}

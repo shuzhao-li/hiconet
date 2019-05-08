@@ -325,8 +325,8 @@ class HiCoNet:
         for pn in self.networks:
             for e in pn.network_edges:
                 # pn.network_edges = [( g, m, PLSscore, p-value ), ...]
-                all += [[pn.name, '.'.join((pn.dict['society1'], str(e[0]))),
-                         '.'.join((pn.dict['society2'], str(e[1]))), 
+                all += [[pn.name, '.'.join((pn.dict['society1'], str(e[0]), str(pn.dict['timepoint1']))),
+                         '.'.join((pn.dict['society2'], str(e[1]), str(pn.dict['timepoint2']))), 
                          e[2], e[3]]]
         
         def sort2(val): return val[4]
@@ -355,12 +355,12 @@ class HiCoNet:
         print("HiCoNet dumped into hiconet_data.pickle.")
         
 
-    def export_json(self, max_num_edges=50):
+    def export_json(self, max_num_edges=10):
         """export
         a) network of communities, b) list of communities, c) community definition/members
         
-        combined_network = [(name, community_type1, community_type2, PLSscore, p-value ), ...]
-        Community_ID = `sc.name`.`community_ID`
+        combined_network = [(name, type1_community.n_Ti, type2_community.m_Tj, PLSscore, p-value ), ...]
+        Community_ID = `sc.name`.`community_ID`.`timepoint`
         
         The basic organizaiton is hierarchy of three levels:
         community network, communities, features. 
@@ -372,33 +372,37 @@ class HiCoNet:
         To list two tabs, nodes/edges on right panel.
         
         """
-        nodes, elements = self.table_to_cy_js_elements( self.combined_network, max_num_edges )
+        selected_combined_network =  self.combined_network[ :max_num_edges ]
+        nodes, elements = self.table_to_cy_js_elements(selected_combined_network)
         community_members, community_data = {}, {}
+
         for sc in self.societies:
             for c, L in sc.Communities.items():
                 # Communities is a dictionary {community_ID: [feature_index, ...], ...}
-                n = '.'.join((sc.name, str(c)))
-                # Only export data in use
-                if n in nodes:
-                    community_members[n] = [sc.feature_member_annotation[x] for x in L]
-                    
-                    # To make this specific to time point in future, using pn.dict['observation_list_society1']
-                    
-                    
-                    # orient="values"
-                    community_data[n] = sc.DataMatrix.iloc[L, :].to_json(orient="split")
+                for T in sc.timepoints:
+                    n = '.'.join((sc.name, str(c), str(T)))
+                    # Only export data in use
+                    if n in nodes:
+                        community_members[n] = [sc.feature_member_annotation[x] for x in L]
+                        
+                        # To make this specific to time point in future, using pn.dict['observation_list_society1']
+                        
+                        # orient="values"
+                        community_data[n] = sc.DataMatrix.iloc[L, :].to_json(orient="index")
         
+        nodes = list(nodes)
+        nodes.sort()
         result = {
             # this is the network (nodes and edges), called elements in cytoscape.js
             'elements': elements,
-            'list_communities': list(nodes),
+            'list_communities': nodes,
             'community_members': community_members,
             'community_data': community_data,
             }
         
         return json.dumps(result)
 
-    def table_to_cy_js_elements(self, combined_network, max_num_edges):
+    def table_to_cy_js_elements(self, selected_combined_network):
         """
         Convert the combined_network in table format to cytoscape.js JSON format:
         http://js.cytoscape.org/#notation/elements-json
@@ -406,12 +410,19 @@ class HiCoNet:
         combined_network = [(name, community_type1, community_type2, PLSscore, p-value ), ...]
         already sorted by p-value.
         
+        
+        Issues:
+        edge ID has to be unique
+        community IDs need to be specific w/ time point, etc.
+        
+        
+        
         Returns
         =======
         Set of nodes, list of elements
         """
         allnodes = []
-        for x in combined_network[:max_num_edges]: allnodes += x[1: 3]
+        for x in selected_combined_network: allnodes += x[1: 3]
         allnodes = set(allnodes)
         nodes = []
         for n in allnodes:
@@ -420,8 +431,8 @@ class HiCoNet:
                 })
         
         edges = []
-        for x in combined_network[:max_num_edges]:
-            edges.append({'data': {'id': x[0],
+        for x in selected_combined_network:
+            edges.append({'data': {'id': x[1]+'_'+x[2],
                                    'source': x[1],
                                    'target': x[2],
                                    'weight': x[4],  # p-value

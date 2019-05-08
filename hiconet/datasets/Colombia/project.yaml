@@ -17,7 +17,7 @@ societies:
   file_observation_annotation: 'samples_meta.txt'
   file_unstructured: ''
 
-- name: metabolomics_HILICpos
+- name: metabolites
   datatype: metabolomics
   file_data_matrix: 'HILIC_pos_diag_basel.txt'
   file_feature_annotation: 'HILIC_pos_diag_basel_feature_annotation.txt'
