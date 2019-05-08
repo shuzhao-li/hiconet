@@ -383,12 +383,16 @@ class HiCoNet:
                     n = '.'.join((sc.name, str(c), str(T)))
                     # Only export data in use
                     if n in nodes:
-                        community_members[n] = [sc.feature_member_annotation[x] for x in L]
-                        
+                        M, D = [], []
+                        nested_data_list = sc.DataMatrix.values[L, :]
+                        for ii in range(len(L)):
+                            feature_name = sc.feature_member_annotation[L[ii]]
+                            M.append(feature_name)
+                            D.append({'name': feature_name, 'data': list(nested_data_list[ii])})
+                            
+                        community_members[n] = M
                         # To make this specific to time point in future, using pn.dict['observation_list_society1']
-                        
-                        # orient="values"
-                        community_data[n] = sc.DataMatrix.iloc[L, :].to_json(orient="index")
+                        community_data[n] = D
         
         nodes = list(nodes)
         nodes.sort()
