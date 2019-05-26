@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
   name='hiconet',
-  version='0.5.1',
+  version='0.5.2',
 
   author='Shuzhao Li',
   author_email='shuzhao.li@gmail.com',
@@ -28,10 +28,9 @@ setup(
     'Topic :: Software Development :: Libraries :: Python Modules',
   ],
 
-  packages=['hiconet'],
-  include_package_data=True,
-  zip_safe=True,
-
+  # changed from earlier setuptools
+  packages=find_packages(exclude=['datasets']),
+  
   install_requires=[
     'numpy',
     'scipy',
@@ -42,7 +41,25 @@ setup(
     'fuzzywuzzy',
     'pyyaml',
     'scanpy',
+  ],
 
+  python_requires='>=3',
+
+  data_files=[
+    ('datasets/SDY80', ['datasets/SDY80/project.yaml', 
+                        'datasets/SDY80/BTMactivity_SDY80.txt',
+                        'datasets/SDY80/neut_ab_titer__data_matrix.txt',
+                        'datasets/SDY80/neut_ab_titer__observation_annotation.txt',
+                        'datasets/SDY80/SDY80_fcs__data_matrix.txt',
+                        'datasets/SDY80/SDY80_fcs__observation_annotation.txt',
+                        'datasets/SDY80/biosample.txt',
+                        ]),
+    ('datasets/Colombia', ['datasets/Colombia/project.yaml', 
+                        'datasets/Colombia/formatted_BTMs_diag_basel.txt',
+                        'datasets/Colombia/HILIC_pos_diag_basel.txt',
+                        'datasets/Colombia/HILIC_pos_diag_basel_feature_annotation.txt',
+                        'datasets/Colombia/samples_meta.txt',
+                        ])
   ],
 
 )

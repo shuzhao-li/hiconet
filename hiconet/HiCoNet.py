@@ -65,8 +65,8 @@ default integration schema:
 """
 
 
-__version__ = "0.5.1"
-__updated__ = "2019-05-25"
+__version__ = "0.5.2"
+__updated__ = "2019-05-26"
 
 
 import os
