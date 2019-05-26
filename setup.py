@@ -4,13 +4,14 @@ from setuptools import setup
 
 setup(
   name='hiconet',
-  version='0.1.1',
+  version='0.5.1',
 
   author='Shuzhao Li',
   author_email='shuzhao.li@gmail.com',
   description='Hierachical Community Network, data driven omics integration',
+  long_description_content_type="text/markdown",
   long_description=open('README.md').read(),
-  url='',
+  url='https://github.com/shuzhao-li/hiconet',
   license='BSD',
 
   keywords='bioinformatics systems biology immunology',
@@ -22,7 +23,7 @@ setup(
     'License :: OSI Approved :: BSD License',
     'Natural Language :: English',
     'Operating System :: OS Independent',
-    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3.7',
     'Topic :: Scientific/Engineering :: Bio-Informatics',
     'Topic :: Software Development :: Libraries :: Python Modules',
   ],

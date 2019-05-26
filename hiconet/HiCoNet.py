@@ -65,8 +65,8 @@ default integration schema:
 """
 
 
-__version__ = "0.4.3"
-__updated__ = "2019-04-11"
+__version__ = "0.5.1"
+__updated__ = "2019-05-25"
 
 
 import os
@@ -466,8 +466,6 @@ class DeltaHiCoNet(HiCoNet):
     
     Yet to implement.
     
-    
-    
     """
     def make_delta_societies(self, old_hiconet):
         new_societies = []
@@ -487,12 +485,10 @@ class DeltaHiCoNet(HiCoNet):
         # delta should be considered as a new society
 
         """
-        def make_observation_id(id1, id2): return '_minus_'.join((str(id2), str(id1)))
+        def make_observation_id(id1, id2): 
+            return '_minus_'.join((str(id2), str(id1)))
 
         pass
-
-
-
 
 
 

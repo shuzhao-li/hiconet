@@ -54,21 +54,4 @@ for integration of multiple data types collected from a common group of subjects
 
 
 ## Test run
-➜  hiconet python3 -m hiconet.HiCoNet hiconet/datasets/SDY80
-
-    BTM conversion is automatically on for transcriptomics data (checking if gene number > 3000)
-
-    To convert transcriptomics to BTM activity scores manually:
-    ➜  Code cd hiconet/hiconet/btm
-    ➜  btm git:(master) ✗ ls
-    __init__.py         btm_example_data.py btm_tool.py
-    ➜  btm git:(master) ✗ python
-    >>> from btm_tool import genetable_to_activityscores
-    >>>
-    >>> genetable_to_activityscores('/Users/sli/Desktop/SDY522/immport_results_SDY522_SDY522_Other_LAIV_Expression_Matrices.tsv',
-        '/Users/sli/Desktop/SDY522/BTMactivity_SDY522.txt')
-    >>>
-
-
-## Planning
-We will use the "Projects" and "Wiki" for planning.
+hiconet python3 -m hiconet.HiCoNet hiconet/datasets/SDY80
