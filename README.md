@@ -11,28 +11,28 @@ We use three files to describe one data type, DataMatrix, FeatureAnnotation and 
 The DataMatrix file uses a single row for observation IDs and a single column for feature IDs. This mandates unique identifier per feature per observation, and separate meta data from the DataMatrix. Because the annotations on feature or observation can be heterogenuous, but should not affect the format of DataMatrix. 
 
 ## More on Terminology:
-    Study: an administrative unit that include one or more projects. Same as ImmPort "Study" (https://www.immport.org/resources/documentation). 
+Study: an administrative unit that include one or more projects. Same as ImmPort "Study" (https://www.immport.org/resources/documentation). 
 
-    Project: a collection of data of one or more types (a dataset). For multiple data types, common samples/subjects are expected, as HiCoNet deals with the `N-integration` problem.
-        This is the unit HiCoNet works on - HiCoNet integrates DataMatrices within a DataSet
-        A DataSet should have at least one Society of data.
+Project: a collection of data of one or more types (a dataset). For multiple data types, common samples/subjects are expected, as HiCoNet deals with the `N-integration` problem.
+    This is the unit HiCoNet works on - HiCoNet integrates DataMatrices within a DataSet
+    A DataSet should have at least one Society of data.
 
-    Society: one data type, defined by a set of DataMatrix, FeatureAnnotation (optional) and ObservationAnnotation (optional). 
-        This 3-file design is similar to anndata (https://github.com/theislab/anndata) but data are transposed. Meta data can differ for different data types.
+Society: one data type, defined by a set of DataMatrix, FeatureAnnotation (optional) and ObservationAnnotation (optional). 
+    This 3-file design is similar to anndata (https://github.com/theislab/anndata) but data are transposed. Meta data can differ for different data types.
 
-    DataMatrix: a data matrix of [continuous] values that represent a biological state or concentration, of the same data type.
-        E.g. transcriptomics (array intensity or transcript counts), metabolomics (peak intensity/area) or microbial OTU counts.
-        This can include different time points or treatments. This is the unit community detection is based on.
+DataMatrix: a data matrix of [continuous] values that represent a biological state or concentration, of the same data type.
+    E.g. transcriptomics (array intensity or transcript counts), metabolomics (peak intensity/area) or microbial OTU counts.
+    This can include different time points or treatments. This is the unit community detection is based on.
 
-    ObservationAnnotation: an observation is an experimental measurement of a biological sample. 
-        A sample may have measurement replicates. Description of biological samples should be in ObservationAnnotation, which can support inferring the study design (e.g. treatment, time points). For ImmPort data, the MySQL table `biosample` can serve as ObservationAnnotation. Time points and treatment are key annotation variables in many studies. 
-    
-    FeatureAnnotation: meta data on features. 
-        This can be as simple as gene annotation, which can even be optional. But a feature may carry a defition of multiple parameters. E.g. a metabolite feaure may have m/z, retention time and collision cross section, and these parameters may be used for certain algorithms.
+ObservationAnnotation: an observation is an experimental measurement of a biological sample. 
+    A sample may have measurement replicates. Description of biological samples should be in ObservationAnnotation, which can support inferring the study design (e.g. treatment, time points). For ImmPort data, the MySQL table `biosample` can serve as ObservationAnnotation. Time points and treatment are key annotation variables in many studies. 
 
-    Graph: a graph/network for relationships in the data (e.g. used in loom format, loompy.org). The current version of HiCoNet does not store this, but will consider it for future versions.
+FeatureAnnotation: meta data on features. 
+    This can be as simple as gene annotation, which can even be optional. But a feature may carry a defition of multiple parameters. E.g. a metabolite feaure may have m/z, retention time and collision cross section, and these parameters may be used for certain algorithms.
 
-    Community: a group of features within a society that share a similar pattern.
+Graph: a graph/network for relationships in the data (e.g. used in loom format, loompy.org). The current version of HiCoNet does not store this, but will consider it for future versions.
+
+Community: a group of features within a society that share a similar pattern.
 
 ## Requires
     'PyYAML'
