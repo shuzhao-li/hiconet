@@ -12,61 +12,13 @@
 Hieracrchical Community Network
 for integration of multiple data types collected from a common group of subjects.
 
-Terminology:
-    Study: Same as ImmPort "Study"
-
-    Project: a collection of data of one or more types. For multiple data types, common samples/subjects are expected.
-        This is the unit HiCoNet works on - HiCoNet integrates DataMatrices within a DataSet
-        A DataSet should have at least one Society of data
-
-
-    Society: one data type
-    at least one of each DataMatrix, FeatureAnnotation, ObservationAnnotation
-
-    DataMatrix: a data matrix of continuous values that represent a biological state or concentration, of the same data type.
-        This can include different time points or treatments.
-        This is the unit community detection is based on.
-
-    ObservationAnnotation: meta data on samples. This may include TimePoints and Treatments, often in biosample table from ImmPort DB
-    FeatureAnnotation: meta data on features
-
-    Key annotation variables: time point and treatment.
-    TimePoint:
-    Treatment:
-
-
-    Graph: as in loom (loompy.org).
-    Community: a group of features within a society that share a similar pattern.
-    e.g. one way to identify communities is to do Louvain graph-clustering method on the graph.
-
-
-    Reusing
-    -------
-    The data structure is aligned with anndata (https://github.com/theislab/anndata)
-    For loom format, one loom file = a Society; as meta data can differ for different data types.
-    Same goes for anndata
-
-
-Matching samples/subjects:
-    DataSets are rarely complete. Sample matching is done on the fly when needed.
-The biosample table typically found in ImmPort:
-    BIOSAMPLE_ACCESSION    DESCRIPTION    NAME    PLANNED_VISIT_ACCESSION    STUDY_ACCESSION    STUDY_TIME_COLLECTED    STUDY_TIME_COLLECTED_UNIT    STUDY_TIME_T0_EVENT    STUDY_TIME_T0_EVENT_SPECIFY    SUBJECT_ACCESSION    SUBTYPE    TYPE    WORKSPACE_ID
-
-default integration schema:
-    btw all data types and all time points
-    users can specifiy the schema too.
-    
-    If data are normalized to baseline values, a new society is derived from old society.
-
-        ? Requiring _Minimal_Sample_Number,
-        ? Check of data quality and imputation will be added later.
-
+See README for details.
 
 """
 
 
-__version__ = "0.5.2"
-__updated__ = "2019-05-26"
+__version__ = "0.5.2r"
+__updated__ = "2019-06-02"
 
 
 import os
@@ -269,7 +221,7 @@ class HiCoNet:
             #
             self.society_dict[sc.name] = sc
 
-    def parse_yaml_design(proj_dict):
+    def parse_yaml_design(self, proj_dict):
         """
         Deduce the instruction on project,
         what data types, how to integrate.
@@ -445,19 +397,6 @@ class HiCoNet:
         # cytoscape.js elements as flat array of nodes and edges
         return allnodes, nodes + edges
 
-    def jsonfy_community_data(self):
-        """
-        Make format for ApexCharts. 
-        https://apexcharts.com/docs/chart-types/heatmap-charts/
-        series: [{
-                    name: 'Metric1',
-                    data: [],
-                }, ...]
-        
-        May need normalize data.
-        
-        """
-        return ''
 
 
 class DeltaHiCoNet(HiCoNet):
@@ -563,7 +502,7 @@ def run_web_HiCoNet(json_dict):
     e.g.
     name_Field1, name_Field2, dataType1, dataType2, data_loc1, data_loc2
     """
-    # parameters to be obtained via web
+    # parameters to be obtained via web; below is emptyp template.
     proj_dict = {
         'project': 'web_project_', 
         #'source_id': 'web_input', 
