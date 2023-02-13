@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+sklearn
+leidenalg
+python-igraph
+fuzzywuzzy
+pyyaml
+scanpy

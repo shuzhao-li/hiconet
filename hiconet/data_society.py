@@ -17,7 +17,10 @@ Hieracrchical Community Network
 
 """
 import pandas as pd
-from pandas.compat import StringIO
+try:
+    from pandas.compat import StringIO
+except ImportError:
+    from io import StringIO
 
 from .input_functions import read_input_tables, fuzzy_index_2L, data_wrangler, \
                             common_observation_IDs, common_subject_IDs, common_timepoint_labels, common_treatment_labels, \

@@ -17,8 +17,8 @@ See README for details.
 """
 
 
-__version__ = "0.5.2r"
-__updated__ = "2019-06-02"
+__version__ = "0.5.3"
+__updated__ = "2023-02-13"
 
 
 import os
