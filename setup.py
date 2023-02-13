@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='hiconet',
-  version='0.5.2',
+  version='0.5.4',
 
   author='Shuzhao Li',
   author_email='shuzhao.li@gmail.com',

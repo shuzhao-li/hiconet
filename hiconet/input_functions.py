@@ -39,6 +39,11 @@ import numpy as np
 import pandas as pd
 from fuzzywuzzy import process as fuzzyfind
 
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
+
 from .btm.btm_example_data import ModuleIndex, ModuleDict
 
 # Will need better management of parameters
@@ -148,7 +153,7 @@ def get_project_dict(_source='local', _dir='.'):
     
 
 def read_yaml_file(yaml_file):
-    return yaml.load(open(yaml_file).read())
+    return yaml.load(open(yaml_file).read(), Loader=Loader)
 
 
 

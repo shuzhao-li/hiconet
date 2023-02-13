@@ -17,7 +17,7 @@ See README for details.
 """
 
 
-__version__ = "0.5.3"
+__version__ = "0.5.4"
 __updated__ = "2023-02-13"
 
 
